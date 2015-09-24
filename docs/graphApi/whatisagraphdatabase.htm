@@ -62,8 +62,8 @@ if (window.gbWhTopic)
 
 	if (window.addTocInfo)
 	{
-	addTocInfo("Welcome to the Mindjet Graph Developers Guide\nWhat is a Graph Database?");
-addAvenueInfo("Basic Sequence","WelcometoMindjetGraphDevelopersG.htm","TheSemanticWeb1.htm");
+	addTocInfo("Welcome to the Spigit Graph Developers Guide\nWhat is a Graph Database?");
+addAvenueInfo("Basic Sequence","WelcometoSpigitGraphDevelopersG.htm","TheSemanticWeb1.htm");
 addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	}
@@ -75,8 +75,8 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
-document.write("<a href=\"welcometomindjetgraphdevelopersg.htm\">Welcome to the Mindjet Graph Developers Guide<\/a> &nbsp;&gt; What is a Graph Database?<\/p>");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
+document.write("<a href=\"welcometospigitgraphdevelopersg.htm\">Welcome to the Spigit Graph Developers Guide<\/a> &nbsp;&gt; What is a Graph Database?<\/p>");
 
 }
 else
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,11 +111,15 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
 <h1>What is a Graph Database?</h1>
-<p><span class="rvts6">MindjetGraph is a</span> <span class="rvts13" style="font-style: italic;"><i>graph</i></span> 
+<p><span class="rvts6">SpigitGraph is a</span> <span class="rvts13" style="font-style: italic;"><i>graph</i></span> 
  <span class="rvts6">data model. &#160;Everything in a graph database is 
  either a</span> <span class="rvts13" style="font-style: italic;"><i>vertex</i></span> 
  <span class="rvts6">or an</span> <span class="rvts13" style="font-style: italic;"><i>edge</i></span><span 
@@ -245,7 +249,7 @@ function onSetStartPage()
 	<li class="rvps2"><p class="steps"><span class="rvts6">Column-based 
 	 store (example: Cassandra)</span></p></li>
 	<li class="rvps2"><p class="steps"><span class="rvts6">Graph (example: 
-	 Neo4J, MindjetGraph)</span></p></li>
+	 Neo4J, SpigitGraph)</span></p></li>
 </ol>
 <p><span class="rvts6">(</span> <a class="rvts14" href="http://blog.3pillarglobal.com/exploring-different-types-nosql-databases">Here 
  is a good discussion of NoSql types</a> <span class="rvts6">)</span></p>
@@ -253,6 +257,15 @@ function onSetStartPage()
 </span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

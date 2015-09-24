@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"concepts_overview.htm\">Concept Overviews<\/a> &nbsp;&gt; Entity Concepts<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,14 +111,18 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
 <h1>Entity Concepts</h1>
-<p><span class="rvts6">Resources in MindjetGraph are called</span> <span 
+<p><span class="rvts6">Resources in SpigitGraph are called</span> <span 
 	 class="rvts17" style="font-weight: bold; font-style: italic;"><i>entities</i></span><span 
-	 class="rvts6">. &#160;Entities are the core elements of MindjetGraph. 
- &#160;All persisted data in MindjetGraph are either entities or properties 
+	 class="rvts6">. &#160;Entities are the core elements of SpigitGraph. 
+ &#160;All persisted data in SpigitGraph are either entities or properties 
  of those entities.</span></p>
 <p><span class="rvts6">Because entities are RDF resources, they all have 
  URI identifiers that are global and durable. &#160;This URI may be used 
@@ -143,7 +147,7 @@ function onSetStartPage()
  ever-changing and often non-exclusive ways that A and B relate to each 
  other. &#160;As we have seen, these relationships are captured by RDF 
  statements, which we also call properties.</span></p>
-<p><span class="rvts6">Nevertheless, the MindjetGraph model does impose 
+<p><span class="rvts6">Nevertheless, the SpigitGraph model does impose 
  a basic containership model on all of its elements. &#160;In short:</span></p>
 <ol style="text-indent: 0px; margin-left: 24px; list-style-position: outside; 
 		 list-style-type: decimal;">
@@ -165,7 +169,7 @@ function onSetStartPage()
  and Tenant Concepts</a><span class="rvts6">.</span></p>
 <h2><span class="rvts18">Entity IDs</span></h2>
 <p><span class="rvts6">The URIs that identify every entity correspond to 
- the structure just described. &#160;All MindjetGraph entity IDs look like 
+ the structure just described. &#160;All SpigitGraph entity IDs look like 
  this:</span></p>
 <p class="Code" style="margin-left: 48px;"><span class="rvts38" style="font-style: italic;"><i>gatewayURL</i></span><span 
 	 style="font-weight: bold;"> </span><span class="rvts39" style="font-weight: bold;">/</span> 
@@ -220,7 +224,7 @@ function onSetStartPage()
 <p><span class="rvts6"><br />
 </span></p>
 <p><span class="rvts17">Common Entity Properties</span></p>
-<p><span class="rvts6">All MindjetGraph entities regardless of type maintain 
+<p><span class="rvts6">All SpigitGraph entities regardless of type maintain 
  these properties:</span> <span class="rvts13" style="font-style: italic;"><i>eid</i></span><span 
 	 class="rvts6">,</span> <span class="rvts13" style="font-style: italic;"><i>dataSpace</i></span><span 
 	 class="rvts6">,</span> <span class="rvts13" style="font-style: italic;"><i>type</i></span><span 
@@ -237,6 +241,15 @@ function onSetStartPage()
 	 class="rvts6">,</span> <a class="rvts14" href="xmlbaseddatatypes.htm">URI</a></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

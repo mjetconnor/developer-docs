@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"rest_api.htm\">REST API<\/a> &nbsp;&gt; POST Queries<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,15 +111,19 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
 <h1><span class="rvts6">POST Queries</span></h1>
 <p><span class="rvts6">Use the HTTP POST method to create new entities 
- in the MindjetGraph.</span></p>
+ in the SpigitGraph.</span></p>
 <p><span class="rvts6">The syntax and usage of the POST method builds on 
  the PUT method. &#160;The same query URL still applies, as defined for 
- the GET method. &#160;The simplest form is just a straight-up MindjetGraph 
+ the GET method. &#160;The simplest form is just a straight-up SpigitGraph 
  entity ID, but the URL may be extended with property segments and matrix 
  parameters.</span></p>
 <p><span class="rvts6">The classic way to understand a POST is as a request 
@@ -144,7 +148,7 @@ function onSetStartPage()
  (in the way we just discussed), rather than as property-name/property-value 
  settings as with PUT.</span></p>
 <p><span class="rvts6">Because of the deep relationship of application 
- logic with posting, the MindjetGraph data model does not have a lot of 
+ logic with posting, the SpigitGraph data model does not have a lot of 
  guidance about the details of what is supported for different target entities. 
  &#160;You must consult application documentation for that.</span></p>
 <p><span class="rvts6">Despite all those disclaimers, there are two common 
@@ -160,7 +164,7 @@ function onSetStartPage()
  lot to do with related application logic.</span></p>
 <p><span class="rvts6">In this pattern, there typically must be a setting 
  for the</span> <span class="rvts13">type</span> <span class="rvts6">property 
- in the POST body. &#160;Its value should be the name of a MindjetGraph 
+ in the POST body. &#160;Its value should be the name of a SpigitGraph 
  class. &#160;This is an important cue to the target entity as to what 
  kind of object to create.</span></p>
 <p><span class="rvts6">Example:</span></p>
@@ -240,6 +244,15 @@ function onSetStartPage()
 <p>&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"tutorial.htm\">Tutorial<\/a> &nbsp;&gt; Get an Access Token<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,20 +111,24 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
 <h1><span class="rvts6">Get an Access Token</span></h1>
 <p><span class="rvts6">Before you can do anything else, you have to get 
  an </span><span class="rvts6" style="font-style: italic;"><i>access token</i></span><span 
-	 class="rvts6">. &#160;Every REST query to the MindjetGraph API needs 
- an access token in order to authenticate the query. &#160;MindjetGraph 
+	 class="rvts6">. &#160;Every REST query to the SpigitGraph API needs 
+ an access token in order to authenticate the query. &#160;SpigitGraph 
  uses the OAuth 2.0 protocol to get it to you. &#160;</span></p>
 <p><span class="rvts6">To try out the queries in this tutorial for yourself 
- (please do!), you will need to have your own login to a SpigitEngage community 
+ (please do!), you will need to have your own login to a Spigit community 
  somewhere. &#160;We use the &quot;www.example.mindjet.com&quot; community 
  in these examples. &#160;Replace that domain name with the one for your 
- own SpigitEngage community.</span></p>
+ own Spigit community.</span></p>
 <p><span class="rvts6">Let's get going by using the following query to 
  get an access token. &#160;Simply cut-and-paste it into your browser address 
  bar, being sure to replace &quot;www.example.mindjet.com&quot; with your 
@@ -135,7 +139,7 @@ function onSetStartPage()
 <p><span class="rvts6">This is an example of using &#160;OAuth 2's</span> 
  <a class="rvts14" href="useragentflow.htm">User Agent Flow</a>. &#160;&#160;<span 
 	 class="rvts6">A request is sent to the &quot;/oauth/authorize&quot; 
- endpoint for your SpigitEngage community. &#160;It has three query parameters:</span></p>
+ endpoint for your Spigit community. &#160;It has three query parameters:</span></p>
 <div class="rvps2">
 	<table class="Mindjet_invisible" style="border-width: 0px; left: 0px; 
 			 top: 0px;" width="742" cellspacing="0">
@@ -190,11 +194,11 @@ function onSetStartPage()
 	</table>
 </div>
 <p><span class="rvts6">&gt;&gt; To make your own application ID (aka &quot;client_id&quot;), 
- see <a href="applications.htm">SpigitEngage in the Graph :: Registered 
+ see <a href="applications.htm">Spigit in the Graph :: Registered 
  Applications</a>.</span></p>
-<p><span class="rvts6">If you are not already logged into that SpigitEngage 
+<p><span class="rvts6">If you are not already logged into that Spigit 
  instance, you will be redirected to the login page appropriate for that 
- community. &#160;The normal SpigitEngage login sequence will apply in 
+ community. &#160;The normal Spigit login sequence will apply in 
  accordance with how that community is set up.</span></p>
 <p><span class="rvts6">Then, if you have never authenticated using this 
  app before, which will surely be the case the first time you try this, 
@@ -206,7 +210,7 @@ function onSetStartPage()
  is appended as the hash tag part of that URI (</span><a href="oauthauthorize.htm">reference 
  details here</a><span class="rvts6">). &#160;</span></p>
 <p><span class="rvts6" style="font-weight: bold;">&quot;/html/api/testOauthRedirectPage.html&quot;</span><span 
-	 class="rvts6"> is a page that we include in your SpigitEngage instance 
+	 class="rvts6"> is a page that we include in your Spigit instance 
  just to make it easy for you to manually try out OAuth 2 requests. &#160;This 
  page simply grabs the values that come to it in the hashtag part of the 
  request and displays them in a way that is easy for you to see. &#160;Your 
@@ -250,6 +254,15 @@ function onSetStartPage()
  REST queries as the value of the &quot;Authorization&quot; HTTP header.</span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

@@ -67,7 +67,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"tutorial.htm\">Tutorial<\/a> &nbsp;&gt; Post an Idea with a Category<\/p>");
 
 }
@@ -93,7 +93,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -103,11 +103,15 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
 <h1>Post an Idea with a Category</h1>
-<p>When a SpigitEngage inquiry (a community or a challenge) has been configured 
+<p>When a Spigit inquiry (a community or a challenge) has been configured 
  to have categories, one of those categories must be specified when posting 
  ideas to it. &#160;Get the categories for an inquiry by looking at its 
  <span style="font-style: italic;"><i>concepts</i></span> property. &#160;</p>
@@ -199,7 +203,7 @@ function onSetStartPage()
 </table>
 <p>&#160;</p>
 <p>This inquiry has three categories defined. &#160;As you can see, each 
- of them are represented in the MindjetGraph data model as <a href="conceptclass.htm">Concept</a> 
+ of them are represented in the SpigitGraph data model as <a href="conceptclass.htm">Concept</a> 
  entities.</p>
 <p>To post an idea to this inquiry, we must pick one of these and specify 
  it as the value of the <span style="font-style: italic;"><i>category</i></span> 
@@ -238,6 +242,15 @@ function onSetStartPage()
 <p>&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

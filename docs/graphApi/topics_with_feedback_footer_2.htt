@@ -13,21 +13,24 @@
 <?rh-region_start type="header" style="width: 100%; position: relative;" ?>
 	<?rh-cbt_start condition="no_print" ?>
 <p class="Head_Foot" style="text-align: right; 
-											 margin-left: 6pt;">API for 
-	 SpigitEngage 3.5.6</p><?rh-cbt_end ?>
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p><?rh-cbt_end ?>
 <?rh-region_end type="header" ?>
 <?rh-region_start type="body" ?>
 	<p>&#160;</p>
 <?rh-region_end type="body" ?>
 <?rh-region_start type="footer" style="width: 100%; position: relative;" ?>
-	<p class="Head_Foot" style="margin-left: 6pt;"><?rh-cbt_start condition="no_print" ?><a 
-	 href="http://community.mindjet.com/" target="_blank" style="font-size: 11pt;">Mindjet 
-	 Community</a><?rh-cbt_end ?><?rh-cbt_start condition="no_print" ?> 
-	 &#160;&#160;&#160;&#160;<?rh-cbt_end ?><?rh-cbt_start condition="no_print" ?><span 
-	 style="color: #808080;">|</span><?rh-cbt_end ?><?rh-cbt_start condition="no_print" ?> 
-	 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<?rh-cbt_end ?><?rh-cbt_start condition="no_print" ?><a 
-	 href="http://www.mindjet.com/" target="_blank" style="font-size: 11pt;">mindjet.com</a><?rh-cbt_end ?><?rh-cbt_start condition="no_print" ?> 
-	 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<?rh-cbt_end ?></p>
+	<?rh-cbt_start condition="no_print" ?>
+<p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><?rh-cbt_start condition="no_print" ?><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;">Spigit C</span><?rh-cbt_start condition="no_print" ?><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;">ustomer Support</span><?rh-cbt_end ?></a><?rh-cbt_end ?> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;">|</span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<?rh-cbt_start condition="no_print" ?><a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a><?rh-cbt_end ?> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p><?rh-cbt_end ?>
 <?rh-region_end type="footer" ?>
 </body>
 </html>

@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"rest_api.htm\">REST API<\/a> &nbsp;&gt; <a href=\"responseformat.htm\">Response Format<\/a> &nbsp;&gt; Primitive Result Elements<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,6 +111,10 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
@@ -121,7 +125,7 @@ function onSetStartPage()
 	 class="rvts29">{ aBooleanValue:true, anIntegerValue:1492, aDecimalValue:14.93 
  }</span></p>
 <p><span class="rvts6">JSON does not have built-in support for dates and 
- times. &#160;Values for dates, times and dateTimes are included in MindjetGraph 
+ times. &#160;Values for dates, times and dateTimes are included in SpigitGraph 
  REST responses as text values formatted according to ISO 8601. &#160;Example:</span></p>
 <p class="Code_table" style="margin-left: 40px; background-color: #e4e4e4;"><span 
 	 class="rvts29">{ aDateTimeValue:&quot;2013-11-20T13:05:45Z&quot;, 
@@ -210,7 +214,7 @@ function onSetStartPage()
 														 margin-bottom: 4.5pt;"><span 
 			 class="rvts6">&quot;2013-11-20T13:05:45.789Z&quot;</span></p>
 			<p style="margin-left: 0pt; margin-top: 0pt; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">The &quot;Z&quot; is a shorthand for GMT. &#160;MindjetGraph 
+			 class="rvts6">The &quot;Z&quot; is a shorthand for GMT. &#160;SpigitGraph 
 			 responses always use the &quot;Z&quot; construct.</span></p></td>
 		</tr>
 	</table>
@@ -219,6 +223,15 @@ function onSetStartPage()
 </span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

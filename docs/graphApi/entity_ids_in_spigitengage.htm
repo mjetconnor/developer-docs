@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  <meta name="generator" content="Adobe RoboHelp 11" />
-<title>Entity IDs in SpigitEngage</title>
+<title>Entity IDs in Spigit</title>
 <link rel="StyleSheet" href="default.css" type="text/css" />
 <script type="text/javascript" src="../MJG1/js/chmRelative.js" language="JavaScript1.2"></script>
 <script type="text/javascript" language="JavaScript">
@@ -67,7 +67,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"spigitengageandmindjetgraph.htm\">SpigitEngage<\/a> &nbsp;&gt; Entity IDs in SpigitEngage<\/p>");
 
 }
@@ -93,7 +93,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -103,14 +103,18 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
-<h1>Entity IDs in SpigitEngage</h1>
-<p>All MindjetGraph entity IDs (see <a href="entityconcepts.htm">Entity 
+<h1>Entity IDs in Spigit</h1>
+<p>All SpigitGraph entity IDs (see <a href="entityconcepts.htm">Entity 
  Concepts</a> or <a href="entityclass.htm">Entity Class</a>) begin with 
  a<span class="rvts6">&#160;</span><span style="font-style: italic;"><i>gatewayURI</i></span><span 
-	 class="rvts6">. &#160;For SpigitEngage instances, that is always the 
+	 class="rvts6">. &#160;For Spigit instances, that is always the 
  URL of the primary community there, plus the path segment &quot;/api&quot;. 
  &#160;The primary community is often (but not always!) the one that starts 
  with &quot;www.&quot;. &#160;For example, if the primary community has 
@@ -124,7 +128,7 @@ function onSetStartPage()
 <p><span class="rvts24" style="font-family: Arial, sans-serif;">o</span><span 
 	 class="rvts6">r</span></p>
 <p class="Code" style="margin-left: 36px;"><span class="rvts24">https://main.xyzcorp.spigit.com/api</span></p>
-<p><span class="rvts6">Every SpigitEngage instance has exactly one <a href="dataspaceclass.htm">dataSpace</a> 
+<p><span class="rvts6">Every Spigit instance has exactly one <a href="dataspaceclass.htm">dataSpace</a> 
  entity and one <a href="tenantclass.htm">tenant</a> entity. &#160;(See 
  <a href="communityandtenantconcepts.htm">Community and Tenant Concepts</a>.) 
  &#160;These entities always have the same entity keys:</span> </p>
@@ -250,6 +254,15 @@ function onSetStartPage()
 <p>&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

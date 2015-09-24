@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"spigitengageandmindjetgraph.htm\">SpigitEngage<\/a> &nbsp;&gt; Registered Applications<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,6 +111,10 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
@@ -120,9 +124,9 @@ function onSetStartPage()
  2.0 protocol</a>, an access token <span class="rvts6">is granted to a 
  registered application executing on behalf of an authenticated user</span></p>
 <p><span class="rvts6">Applications may be registered by admins for your 
- SpigitEngage instance in the page: Administration Settings &gt; API Management.</span></p>
+ Spigit instance in the page: Administration Settings &gt; API Management.</span></p>
 <p class="steps_bull_1" style="margin-left: 40px;">1. &#160;&#160;Login 
- to your SpigitEngage instance with an account that has administrative 
+ to your Spigit instance with an account that has administrative 
  privileges.</p>
 <p class="steps_bull_1" style="margin-left: 40px;">2. &#160;&#160;Navigate 
  to the Administration Page.</p>
@@ -171,7 +175,7 @@ function onSetStartPage()
 			 mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; 
 			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
 			 padding-right: 0px; padding-bottom: 0px;"><p>Describe the 
-		 nature of the application and what it features in terms of SpigitEngage 
+		 nature of the application and what it features in terms of Spigit 
 		 functionality</p></td>
 	</tr>
 	<tr class="t2Row" style="mso-yfti-irow: 3;">
@@ -199,7 +203,7 @@ function onSetStartPage()
 			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
 			 padding-right: 0px; padding-bottom: 0px;"><p>Will prompt a 
 		 user who accesses the application for the first time to authorize 
-		 application to perform functions in SpigitEngage on their behalf.<span 
+		 application to perform functions in Spigit on their behalf.<span 
 		 style="mso-spacerun: yes;">&#160;</span>&#160;(If On, user will 
 		 be prompted, if Off, user will not be prompted)</p></td>
 	</tr>
@@ -268,18 +272,18 @@ function onSetStartPage()
 	 mso-bidi-language: AR-SA; font-family: Arial, sans-serif;">&#160;Please 
  make note of these for future reference.</span></p>
 <h2><span class="rvts18">Authorization</span></h2>
-<p><span class="rvts6">The MindjetGraph REST API uses the</span> <a class="rvts14" href="authenticationwithoauth20.htm">OAuth 2.0 protocol</a> <span 
+<p><span class="rvts6">The SpigitGraph REST API uses the</span> <a class="rvts14" href="authenticationwithoauth20.htm">OAuth 2.0 protocol</a> <span 
 	 class="rvts6">to generate access tokens and use access tokens to authenticate 
  REST queries. &#160;The details of that process is described in detail</span> 
  <a class="rvts14" href="oauth20requestendpoints.htm">here</a><span class="rvts6">. 
  &#160;Those pages refer to an</span> <span class="rvts13">authorizationServiceURL</span><span 
 	 class="rvts6">.</span></p>
-<p><span class="rvts6">For SpigitEngage, use the URL of any SpigitEngage 
+<p><span class="rvts6">For Spigit, use the URL of any Spigit 
  community as the</span> <span class="rvts13">authorizationServiceURL</span> 
  <span class="rvts6">for making these OAuth calls. &#160;That community 
  provides the context and rules for logging a user in, assuming there is 
- not already an active SpigitEngage user session in the application's environment, 
- whatever that may be. &#160;It is not uncommon for different SpigitEngage 
+ not already an active Spigit user session in the application's environment, 
+ whatever that may be. &#160;It is not uncommon for different Spigit 
  communities, even within the same installation, to have differing login 
  authorities such as different SSO or LDAP connections. &#160;</span></p>
 <p><span class="rvts6">Access tokens time out after 10 minutes of no use. 
@@ -287,6 +291,15 @@ function onSetStartPage()
  admin configurable (somehow).</span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

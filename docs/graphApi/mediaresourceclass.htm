@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; <a href=\"generalpurposedatatypes.htm\">General Purpose Datatypes<\/a> &nbsp;&gt; MediaResource Class<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,6 +111,10 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
@@ -262,17 +266,53 @@ function onSetStartPage()
 											 margin-top: 0pt;"><span class="rvts6">The 
 			 duration in seconds of an audio or video clip or an animation.</span></p></td>
 		</tr>
-		
-			
-			
-			
-		
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt;">variantBundle</p></td>
+			<td 
+				 style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt;">MediaBundle</p></td>
+			<td 
+				 style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt;"><a href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
+			<td 
+				 style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt;">This 
+			 resource may belong to a set of resources that are all representations 
+			 of the same thing, varying by format, size, or other structural 
+			 elements that do not substantially change the semantic content 
+			 of the resource.</p>
+			<p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt;">If 
+			 so, the related resources are contained within the MediaBundle 
+			 that is identified by this property.</p>
+			<p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt;">This 
+			 media resource SHOULD also be a member of that media bundle.</p></td>
+		</tr>
 	</table>
 </div>
 <p><span class="rvts6"><br />
 </span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

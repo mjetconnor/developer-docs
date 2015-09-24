@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; <a href=\"primitive_datatypes.htm\">Primitive Datatypes<\/a> &nbsp;&gt; Constructions<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,6 +111,10 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
@@ -142,12 +146,12 @@ function onSetStartPage()
  by using the singular or plural form of a property name. &#160;This is 
  discussed in more detail in <a href="collectionsandpluralpropertyname.htm">Collections 
  and Plural Property Names</a>.</span></p>
-<p><span class="rvts6">Many of the classes defined by the Mindjet Graph 
+<p><span class="rvts6">Many of the classes defined by the SpigitGraph 
  &#160;data model describe kinds of objects. &#160;The job of the class 
  definition is to describe what properties are expected to appear for objects 
  of that particular datatype.</span></p>
 <h2><span class="rvts6">Collections</span></h2>
-<p><span class="rvts6">The MindjetGraph data model has no collection datatype 
+<p><span class="rvts6">The SpigitGraph data model has no collection datatype 
  per se. &#160;Collections appear as properties that may have multiple 
  values as indicated by the <a href="requirementlevelsandmultiplicity.htm">[ 
  * ] or [ 1 ] requirement levels</a>. &#160;The specific form that these 
@@ -176,6 +180,15 @@ function onSetStartPage()
 <p>&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

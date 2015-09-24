@@ -16,11 +16,12 @@
 <div class="Head_Foot" style="margin-left: 6pt; 
 												 text-align: none; height: 16px;">
 		<div style="float: right;">
-			<span style="vertical-align: top;">Mindjet Graph API &#160;&#160;</span><a 
+			<span style="vertical-align: top; color: #0099cc;">Spigit Graph 
+			 AP</span><span style="vertical-align: top;">I &#160;&#160;<a 
 			 href="javascript:history.go(-1)" title="Go Back"><img alt="" 
-			 src="red_left.gif" /></a> <a href="javascript:history.go(1)" 
-											 title="Go Forward"><img alt="" 
-			 src="red_right.gif" /></a> 
+			 src="blue_left.png" /></a></span> <a href="javascript:history.go(1)" 
+													 title="Go Forward"><img 
+			 alt="" src="blue_right.png" /></a> 
 		</div>
 	</div><?rh-cbt_end ?>
 <?rh-region_end type="header" ?>
@@ -29,12 +30,17 @@
 <?rh-region_end type="body" ?>
 <?rh-region_start type="footer" style="width: 100%; position: relative;" ?>
 	<?rh-cbt_start condition="no_print" ?>
-<p class="Head_Foot" style="margin-left: 6pt;"><span 
-	 style="font-style: italic;"><?rh-cbt_start condition="no_print" ?><a 
-	 href="http://community.mindjet.com/" target="_blank" style="font-size: 11pt;">Mindjet 
-	 Community</a><?rh-cbt_end ?> </span>&#160;&#160;&#160;&#160;<span 
-	 style="color: #808080;">|</span> &#160;&#160;&#160;&#160;&#160;<?rh-cbt_start condition="no_print" ?><a 
-	 href="http://www.mindjet.com/" target="_blank" style="font-size: 11pt;">&#160;mindjet.com</a><?rh-cbt_end ?></p><?rh-cbt_end ?>
+<p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><?rh-cbt_start condition="no_print" ?><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;">Spigit C</span><?rh-cbt_start condition="no_print" ?><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;">ustomer Support</span><?rh-cbt_end ?></a><?rh-cbt_end ?><span 
+	 style="font-style: italic;"> &#160;&#160;&#160;&#160;</span><span 
+	 style="color: #808080;">|</span><span style="font-style: italic;"> 
+	 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<?rh-cbt_start condition="no_print" ?><a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a><?rh-cbt_end ?></span></p><?rh-cbt_end ?>
 <?rh-region_end type="footer" ?>
 </body>
 </html>

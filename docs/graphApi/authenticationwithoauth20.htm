@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"rest_api.htm\">REST API<\/a> &nbsp;&gt; Authentication with OAuth 2.0<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,6 +111,10 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
@@ -128,13 +132,13 @@ function onSetStartPage()
 <p class="rvps2" style="margin-left: 24px; margin-top: 4.5pt; margin-bottom: 4.5pt;"><span 
 	 class="rvts6"><a href="errormessages1.htm">Error Messages</a><br />
 </span></p>
-<p><span class="rvts6">MindjetGraph REST queries are authenticated using 
+<p><span class="rvts6">SpigitGraph REST queries are authenticated using 
  the OAuth 2.0 regime. &#160;All queries must be tagged with an &quot;Authorization&quot; 
  HTTP header whose value is &quot;Bearer</span> <span class="rvts13" style="font-style: italic;"><i>accessToken</i></span><span 
 	 class="rvts6">&quot;.</span></p>
 <p><span class="rvts6">That part is pretty easy. &#160;The fun is in getting 
  that access token.</span></p>
-<p><span class="rvts6">The MindjetGraph REST OAuth 2.0 implementation religiously 
+<p><span class="rvts6">The SpigitGraph REST OAuth 2.0 implementation religiously 
  follows the</span> <a class="rvts14" href="http://tools.ietf.org/html/draft-ietf-oauth-v2-20">OAuth 
  2.0 v20 specification.</a> &#160;<span class="rvts6">If you check out 
  that document, you may want to keep in mind this terminology:</span></p>
@@ -171,7 +175,7 @@ function onSetStartPage()
 			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
 				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
 				 padding-bottom: 6px;" width="406"><p><span class="rvts6">An 
-			 end-user, acting in tandem with a MindjetGraph authorization 
+			 end-user, acting in tandem with a SpigitGraph authorization 
 			 endpoint. &#160;In these Help Docs, we call this the</span> 
 			 <span class="rvts52" style="font-style: italic;"><i>authorizationServiceURL</i></span></p></td>
 		</tr>
@@ -186,13 +190,22 @@ function onSetStartPage()
 			 us, this will be a</span> <span class="rvts38" style="font-style: italic;"><i>gatewayURI</i></span><span 
 			 class="rvts6">, as discussed in</span> <a class="rvts14" href="entityidsandcommonprefixes.htm">Rest 
 			 API Entity IDs</a><span class="rvts6">. &#160;This is implicit 
-			 in each MindjetGraph entity's identifying URI.</span></p></td>
+			 in each SpigitGraph entity's identifying URI.</span></p></td>
 		</tr>
 	</table>
 </div>
 <p class="rvps2">&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

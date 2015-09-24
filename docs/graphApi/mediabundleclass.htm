@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="NOODP" />
+ <meta name="generator" content="Adobe RoboHelp 11" />
+<title>MediaBundle Class</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Reference\nDataypes and Classes\nGeneral Purpose Datatypes\nMediaBundle Class");
+addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
+document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; <a href=\"generalpurposedatatypes.htm\">General Purpose Datatypes<\/a> &nbsp;&gt; MediaBundle Class<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('content.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<div style="width: 100%; position: relative;" id="header">
+	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
+</div>
+
+
+<h1><span class="rvts6">MediaBundle Class</span></h1>
+<p>A bundle of related media resources.</p>
+<p>&#160;</p>
+<div class="rvps2">
+	<table class="TopRow" style="border: solid 1px #000000;" cellspacing="0" 
+			 width="100%">
+		<tr class="t1st" style="vertical-align: top;">
+			<td style="border: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="91" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Property</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="97" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Datatype</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="47" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Req</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="367" 
+				 bgcolor="#CEE0F2"><p style="font-weight: bold; margin-bottom: 4.5pt; 
+										 margin-left: 0in; margin-top: 0pt;"><span 
+			 class="rvts17">Description</span></p></td>
+		</tr>
+		<tr class="t2Row" style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="91"><p 
+				 style="margin-bottom: 4.5pt; margin-left: 0in; margin-top: 0pt;"><span 
+			 class="rvts6">parts</span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="97"><p style="margin-bottom: 4.5pt; 
+													 margin-left: 0in; 
+													 margin-top: 0pt;"><a href="plainobject_class.htm">PlainObject</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="47"><p style="margin-bottom: 4.5pt; 
+													 margin-left: 0in; 
+													 margin-top: 0pt;"><span 
+			 class="rvts14"><a href="requirementlevelsandmultiplicity.htm">MUST</a></span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="367"><p style="margin-bottom: 4.5pt; 
+														 margin-left: 0in; 
+														 margin-top: 0pt;"><span 
+			 class="rvts6">Object that contains the </span><b id="docs-internal-guid-8c80bcee-d629-6126-0d1e-109c5c92c4fb"><span 
+			 style="font-size: 13px; font-family: Arial; font-weight: normal;">constituent</span></b><span 
+			 class="rvts6"> resources of the bundle. &#160;All properties 
+			 of this object must have values that are <a href="mediaresourceclass.htm">MediaResources</a>. 
+			 &#160;The property names are determined by usage but not by 
+			 the object class.</span></p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="91"><p 
+				 style="margin-bottom: 4.5pt; margin-left: 0in; margin-top: 0pt;">object</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="97"><p style="margin-bottom: 4.5pt; 
+													 margin-left: 0in; 
+													 margin-top: 0pt;"><a href="rdfandowldatatypes.htm">Resource</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="47"><p style="margin-bottom: 4.5pt; 
+													 margin-left: 0in; 
+													 margin-top: 0pt;"><a href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="367"><p style="margin-bottom: 4.5pt; 
+														 margin-left: 0in; 
+														 margin-top: 0pt;">If 
+			 the bundle is in support of a particular thing, that thing 
+			 is indicated by the value of this property.</p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="91"><p 
+				 style="margin-bottom: 4.5pt; margin-left: 0in; margin-top: 0pt;">purpose</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="97"><p style="margin-bottom: 4.5pt; 
+													 margin-left: 0in; 
+													 margin-top: 0pt;"><a href="rdfandowldatatypes.htm">Thing</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="47"><p style="margin-bottom: 4.5pt; 
+													 margin-left: 0in; 
+													 margin-top: 0pt;"><a href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="367"><p style="margin-bottom: 4.5pt; 
+														 margin-left: 0in; 
+														 margin-top: 0pt;">Indicates 
+			 the purpose of the bundle.</p></td>
+		</tr>
+	</table>
+</div>
+<p>&#160;</p>
+<p style="font-weight: bold; font-size: 10pt; text-decoration: underline; "><span><font size="2" style="font-size:10pt;"><u>Purpose</u></font></span></p>
+<p>Standard values for the <span style="font-style: italic;"><i>purpose</i></span> 
+ property:</p>
+<div class="rvps2">
+	<table class="TopRow" style="border: solid 1px #000000;" cellspacing="0" 
+			 width="100%">
+		<col width="106" />
+		<col width="612" />
+		<tr class="t1st" style="vertical-align: top;">
+			<td style="border: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Value</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Description</span></p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;"><p style="margin-bottom: 4.5pt; 
+				 margin-left: 0in; margin-top: 0pt;">&quot;variants&quot;</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;"><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;"><b 
+			 id="docs-internal-guid-8c80bcee-d705-6d94-4e9e-6eb253655d37"><span 
+			 style="font-size: 13px; font-family: Arial; font-weight: normal;">MediaBundles 
+			 that have this purpose contain resources that differ only 
+			 in format or scale. &#160;The content should be the same in 
+			 all member resources.</span></b> </p></td>
+		</tr>
+	</table>
+</div>
+<p style="font-weight: bold; font-size: 11pt; text-decoration: underline; ">&#160;</p>
+<p style="font-weight: bold; font-size: 10pt; text-decoration: underline; ">Parts</p>
+<p dir="ltr" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; 
+	 margin-left: -4.5pt;"><b id="docs-internal-guid-8c80bcee-d707-24d2-27ed-9c01f76e82bf"><span 
+	 style="font-size: 13px; font-family: Arial; color: #000000; background-color: transparent; 
+	 font-weight: normal; font-style: normal; font-variant: normal; vertical-align: baseline; 
+	 white-space: pre-wrap; text-decoration: none; "><font color="black" >Generally speaking, 
+ the value of the &quot;parts&quot; property is an object with no restriction 
+ on what properties may or may not exist. &#160;But regardless of the property 
+ names, their values must all be MediaResources. &#160;One could scan all 
+ of the resources in the parts object to find the part that best matches 
+ a particular usage.</font></span></b></p>
+&#160;
+<p dir="ltr" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; 
+	 margin-left: -4.5pt;"><b id="docs-internal-guid-8c80bcee-d707-24d2-27ed-9c01f76e82bf"><span 
+	 style="font-size: 13px; font-family: Arial; color: #000000; background-color: transparent; 
+	 font-weight: normal; font-style: normal; font-variant: normal; vertical-align: baseline; 
+	 white-space: pre-wrap; text-decoration: none; "><font color="black" >The bundle's &quot;purpose&quot; 
+ value is a cue to what property names may be expected. &#160;When the 
+ bundle's purpose is &quot;variants&quot; (the only case defined so far), 
+ the property names SHOULD correspond to the &quot;scale mnemonics&quot; 
+ defined below.</font></span></b><b id="docs-internal-guid-8c80bcee-d707-24d2-27ed-9c01f76e82bf" 
+							 style="font-weight: normal;"><br />
+</b> </p>
+<p style="font-weight: bold; font-size: 10pt; text-decoration: underline; ">Scale 
+ Mnemonics</p>
+<div class="rvps2">
+	<table class="TopRow" style="border: solid 1px #000000;" cellspacing="0" 
+			 width="100%">
+		<col width="77" />
+		<col width="88" />
+		<col width="87" />
+		<col width="435" />
+		<tr class="t1st" style="vertical-align: top;">
+			<td style="border: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Scale Mnemonic</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Approx. Size in 
+			 Pixels</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Approx. Size in 
+			 Inches *</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-bottom: 4.5pt; margin-left: 0in; 
+				 margin-top: 0pt;"><span class="rvts17">Description</span></p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;"><p style="margin-bottom: 4.5pt; 
+				 margin-left: 0in; margin-top: 0pt; font-weight: bold;">original</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;"><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">--</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;"><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">--</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;"><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;"><b 
+			 id="docs-internal-guid-8c80bcee-d70a-29db-18c1-06f1ce7f38c2"><span 
+			 style="font-size: 13px; font-family: Arial; font-weight: normal;">The 
+			 source media resource object from which the other variants 
+			 are derived.</span></b> </p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+				 margin-left: 0in; margin-top: 0pt; font-weight: bold;">inline</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">40 
+			 x 40</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">0.5&quot; 
+			 x 0.5&quot;</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;"><b 
+			 id="docs-internal-guid-8c80bcee-d70a-4c08-9bd1-0bef9afa01b2"><span 
+			 style="font-size: 13px; font-family: Arial; font-weight: normal;">Images 
+			 at this scale are appropriate for use as inline inserts in 
+			 a document or description. &#160;This is also the typical 
+			 size for user avatar images.</span></b> </p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+				 margin-left: 0in; margin-top: 0pt; font-weight: bold;">logo</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">80 
+			 x 80</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">1&quot; 
+			 x 1&quot;</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;"><b 
+			 id="docs-internal-guid-8c80bcee-d70a-66c2-9fc3-9e5bed6a066d"><span 
+			 style="font-size: 13px; font-family: Arial; font-weight: normal;">Images 
+			 at this scale are approximately the size of a business logo, 
+			 for instance in a letterhead or web page header.</span></b> 
+			 </p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+				 margin-left: 0in; margin-top: 0pt; font-weight: bold;">badge</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">150 
+			 x 150</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">2&quot; 
+			 x 2&quot;</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;"><b 
+			 id="docs-internal-guid-8c80bcee-d70a-8005-056d-3f22265b65e7"><span 
+			 style="font-size: 13px; font-family: Arial; font-weight: normal;">Images 
+			 at this scale are approximately the size of a badge.</span></b> 
+			 </p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+				 margin-left: 0in; margin-top: 0pt; font-weight: bold;">card</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">300 
+			 x 300</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">4&quot; 
+			 x 4&quot;</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;"><b 
+			 id="docs-internal-guid-8c80bcee-d70a-9e93-aefc-637185359bc7"><span 
+			 style="font-size: 13px; font-family: Arial; font-weight: normal;">Images 
+			 at this scale are approximately the size of &#160;3&quot;x5&quot; 
+			 index cards.</span></b> </p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+				 margin-left: 0in; margin-top: 0pt; font-weight: bold;">letter</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">600 
+			 x 600</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;">8&quot; 
+			 x 8&quot;</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px; "><p style="margin-bottom: 4.5pt; 
+											 margin-left: 0in; margin-top: 0pt;"><b 
+			 id="docs-internal-guid-8c80bcee-d70a-bc90-bd89-bbd6eabaee55"><span 
+			 style="font-size: 13px; font-family: Arial; font-weight: normal;">Images 
+			 at this scale are approximately the size of printed letter 
+			 pages. &#160;This is also the scale of a typical web page 
+			 in a laptop display.</span></b> </p></td>
+		</tr>
+	</table>
+</div>
+<p><b id="docs-internal-guid-8c80bcee-d707-24d2-27ed-9c01f76e82bf"><span 
+	 style="line-height: 1.15; font-size: 13px; font-family: Arial; color: #000000; 
+	 background-color: #ffffff; font-weight: normal; font-style: normal; 
+	 font-variant: normal; vertical-align: baseline; white-space: pre-wrap; 
+	 text-decoration: none; "><font color="black" >* &quot;Approx Size in Inches&quot; values 
+ assume a device resolution on the order of 75 DPI.</font></span></b></p>
+<b id="docs-internal-guid-8c80bcee-d707-24d2-27ed-9c01f76e82bf" style="font-weight: normal;"><br />
+</b><b id="docs-internal-guid-8c80bcee-d707-24d2-27ed-9c01f76e82bf"><span 
+	 style="line-height: 1.15; font-size: 13px; font-family: Arial; color: #000000; 
+	 background-color: #ffffff; font-weight: normal; font-style: normal; 
+	 font-variant: normal; vertical-align: baseline; white-space: pre-wrap; 
+	 text-decoration: none; "><font color="black" >As a general rule, images may be resized 
+ downward as much as 50%, but should not be resized upward because of potential 
+ display artifacts. &#160;Consequently, a good practice is to generate 
+ images that are slightly larger in pixels compared to the expectations 
+ for a given mnemonic.</font></span></b>
+<br /><b id="docs-internal-guid-8c80bcee-d707-24d2-27ed-9c01f76e82bf" 
+					 style="font-weight: normal;"><br />
+</b> 
+<div style="width: 100%; position: relative;" id="footer">
+	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+</div>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

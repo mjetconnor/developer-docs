@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  <meta name="generator" content="Adobe RoboHelp 11" />
-<title>SpigitEngage Users</title>
+<title>Spigit Users</title>
 <link rel="StyleSheet" href="default.css" type="text/css" />
 <!--[if lte IE 8]>
                 <link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"spigitengageandmindjetgraph.htm\">SpigitEngage<\/a> &nbsp;&gt; SpigitEngage Users<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,14 +111,18 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
-<h1><span class="rvts6">SpigitEngage Users</span></h1>
-<p><span class="rvts6">SpigitEngage users are represented as <a href="userclass.htm">User</a> 
- entities in MindjetGraph. &#160;A given user has the same entity object 
+<h1><span class="rvts6">Spigit Users</span></h1>
+<p><span class="rvts6">Spigit users are represented as <a href="userclass.htm">User</a> 
+ entities in SpigitGraph. &#160;A given user has the same entity object 
  throughout the tenant (aka instance), irrespective of community.</span></p>
-<p><span class="rvts6">In the Mindjet Graph model, <a href="userclass.htm">User</a> 
+<p><span class="rvts6">In the SpigitGraph model, <a href="userclass.htm">User</a> 
  is a sub-class of <a href="personclass.htm">Person</a>, which is a sub-class 
  of <a href="agentclass.htm">Agent</a>. &#160;Whereever you see entity 
  properties defined to be agents, you will almost sure find a user entity 
@@ -126,12 +130,12 @@ function onSetStartPage()
 <p><span class="rvts6">The final response from the OAuth authorization 
  flows - the <a href="accesstokenresponse.htm">Access Token Response</a> 
  - includes the entity ID of the user that was just authenticated. &#160;For 
- SpigitEngage, this will always refer to a User entity.</span></p>
-<p>In SpigitEngage, there is a one-to-one relationship between <a href="userclass.htm">User</a> 
+ Spigit, this will always refer to a User entity.</span></p>
+<p>In Spigit, there is a one-to-one relationship between <a href="userclass.htm">User</a> 
  and <a href="useraccountclass.htm">UserAccount</a> entities. &#160;The 
  <a href="useraccountclass.htm">UserAccount</a> entity is where the user's 
  &quot;username&quot; is found.</p>
-<p><span class="rvts6">SpigitEngage may capture additional information 
+<p><span class="rvts6">Spigit may capture additional information 
  about a user when an external identity provider such as SAML or LDAP is 
  used. &#160;This extended information is referred to as</span> <span class="rvts6" 
 	 style="font-style: italic; font-weight: bold;"><i>user attributes</i></span><span 
@@ -146,6 +150,15 @@ function onSetStartPage()
  for a particular user entity.</span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

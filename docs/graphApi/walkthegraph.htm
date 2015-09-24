@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"tutorial.htm\">Tutorial<\/a> &nbsp;&gt; Walk The Graph<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,6 +111,10 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
@@ -163,7 +167,7 @@ function onSetStartPage()
 <p><span class="rvts6">The following shows what you might get back in response. 
  &#160;This is again somewhat abbreviated. &#160;There could be a number 
  of additional properties included in your response, depending on the details 
- of your SpigitEngage version.</span></p>
+ of your Spigit version.</span></p>
 <table class="Code" style="margin-left: 40px;" cellspacing="0" width="100%">
 	<col style="width: 100%;" />
 	<tr>
@@ -271,7 +275,7 @@ function onSetStartPage()
  <span class="rvts24">https://www.example.mindjet.com/api/ds1/ua-59</span></p>
 <p><span class="rvts6">While we're here, take a look at the value for the</span> 
  <span class="rvts13" style="font-style: italic;"><i>img</i></span> <span class="rvts6">property 
- in this example. &#160;It looks a bit like a MindjetGraph entity - it's 
+ in this example. &#160;It looks a bit like a SpigitGraph entity - it's 
  an object value surrounded by braces &quot;{&quot; ... &quot;}&quot;, 
  and it even has a property that looks like a URI. &#160;But there is no</span> 
  <span class="rvts13" style="font-style: italic;"><i>eid</i></span> <span class="rvts6">property, 
@@ -279,6 +283,15 @@ function onSetStartPage()
 <p class="rvps2">&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

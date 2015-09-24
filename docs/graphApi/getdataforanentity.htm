@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"tutorial.htm\">Tutorial<\/a> &nbsp;&gt; Get Data for an Entity<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,11 +111,15 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
 <h1><span class="rvts6">Get Data for an Entity</span></h1>
-<p><span class="rvts6">Every REST query in the MindjetGraph API is authenticated 
+<p><span class="rvts6">Every REST query in the SpigitGraph API is authenticated 
  by specifying your access token in the &quot;Authorization&quot; HTTP 
  header. &#160;The value of that header must be the literal text &quot;Bearer 
  &quot; (the word &quot;Bearer&quot; followed by a single blank space character) 
@@ -132,7 +136,7 @@ function onSetStartPage()
 <p><span class="rvts6">The authentication response from the</span> <a class="rvts14" 
 	 href="getaccesstoken.htm" style="font-family: 'Arial Unicode MS', sans-serif; 
 	 font-size: 9pt;">previous tutorial step</a> <span class="rvts6">gave 
- us two starting points for the exploration of your MindjetGraph data. 
+ us two starting points for the exploration of your SpigitGraph data. 
  &#160;The</span> <span class="rvts13" style="font-style: italic; font-weight: bold;"><i>userId</i></span> 
  <span class="rvts6">value is the &quot;entity ID&quot; of the user that 
  was just authenticated. &#160;The</span> <span class="rvts13" style="font-style: italic; 
@@ -142,7 +146,7 @@ function onSetStartPage()
 <p><span class="rvts6">The value for communityId from the previous step 
  was </span><span class="rvts6" style="color: #008080;"><font color="teal" >&quot;https://www.example.mindjet.com/api/ds1/comm-1&quot;</font></span><span 
 	 class="rvts6">.</span></p>
-<p><span class="rvts6">To get the data for an entity, any MindjetGraph 
+<p><span class="rvts6">To get the data for an entity, any SpigitGraph 
  entity, simply execute an HTTP GET request using the entity's ID as the 
  URL of the query.</span></p>
 <p class="Code" style="margin-left: 48px; color: #003f00;"><span class="rvts25">GET</span> 
@@ -170,7 +174,7 @@ function onSetStartPage()
  = &quot;https://www.example.mindjet.com/api/ds1/comm-1&quot;.</span></p>
 <p><span class="rvts6">The</span> <span class="rvts13" style="font-style: italic;"><i>type</i></span> 
  <span class="rvts6">value is &quot;Community&quot;. &#160;This tells us 
- that the datatype for the entity is the MindjetGraph class</span> <a class="rvts14" href="communityclass.htm" style="font-family: 'Arial Unicode MS', sans-serif; 
+ that the datatype for the entity is the SpigitGraph class</span> <a class="rvts14" href="communityclass.htm" style="font-family: 'Arial Unicode MS', sans-serif; 
 	 font-size: 9pt;">Community</a><span class="rvts6">. &#160;Look up 
  that class in the</span> <a class="rvts14" href="alphaclass_index.htm" style="font-family: 'Arial Unicode MS', sans-serif; 
 							 font-size: 9pt;">Reference</a> <span class="rvts6">section 
@@ -180,7 +184,7 @@ function onSetStartPage()
  is really important to note that the key value in the entity ID, in this 
  case &quot;comm-1&quot;, does not tell you what kind of object this is, 
  even though it may look like it sometimes. &#160;To know the type of a 
- particular MindjetGraph entity, you</i></span><span style="font-style: italic;"><i> 
+ particular SpigitGraph entity, you</i></span><span style="font-style: italic;"><i> 
  </i></span><span class="rvts32" style="font-style: italic;"><i>must</i></span><span 
 	 style="font-style: italic;"><i> get its data and </i></span><span class="rvts30" 
 	 style="font-style: italic;"><i>look at its</i></span><span style="font-style: italic;"><i> 
@@ -321,6 +325,15 @@ function onSetStartPage()
 <p class="rvps12">&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

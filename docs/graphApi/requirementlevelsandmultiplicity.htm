@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"preface.htm\">Preface<\/a> &nbsp;&gt; Requirement Levels and Multiplicity<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,6 +111,10 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
@@ -119,8 +123,8 @@ function onSetStartPage()
  relationships with any given property with other resources. &#160;This 
  is powerful as a data model, but can present a challenge to constructing 
  applications that are simple, maintainable, reliable and predictable.&#160;To 
- that end, all properties in MindjetGraph are defined with a &quot;requirement 
- level&quot;. &#160;This is a cue to a MindjetGraph app developer as to 
+ that end, all properties in SpigitGraph are defined with a &quot;requirement 
+ level&quot;. &#160;This is a cue to a SpigitGraph app developer as to 
  how to code for accessing those properties -- which properties are always 
  present, which require checks for null, which are common, and which may 
  have multiple values.</span></p>
@@ -136,7 +140,7 @@ function onSetStartPage()
  addition of new knowledge as represented by new datatypes and new relationships.</span></p>
 <p>&#160;</p>
 <p><span class="rvts36">*</span> <span class="rvts13" style="font-style: italic;"><i>These 
- are the values that appear in the MindjetGraph class definitions.</i></span></p>
+ are the values that appear in the SpigitGraph class definitions.</i></span></p>
 <div class="rvps2">
 	<table style="border: solid 1px #000000;" cellspacing="0" width="100%">
 		<tr style="vertical-align: top;">
@@ -352,6 +356,15 @@ function onSetStartPage()
 </div>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometomindjetgraphdevelopersg.htm");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"concepts_overview.htm\">Concept Overviews<\/a> &nbsp;&gt; Community and Tenant Concepts<\/p>");
 
 }
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(1);
+  autoSync(0);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -111,19 +111,23 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;">API for Spigit</p>
 </div>
 
 
 <h1>Community and Tenant Concepts</h1>
 <p><span class="rvts6">DataSpaces, Tenants and Communities represent the 
- broad organization of things in a MindjetGraph. &#160;We have already 
+ broad organization of things in a SpigitGraph. &#160;We have already 
  touched on</span> <a class="rvts14" href="dataspaceclass.htm">DataSpace</a> 
  <span class="rvts6">in</span> <a class="rvts14" href="entityconcepts.htm">Entity 
  Concepts</a><span class="rvts6">. &#160;They are the physical containers 
  for entities. &#160;Every entity is &quot;owned&quot; by a dataSpace, 
  so much so that it makes up a part of that entity's ID. &#160;In fact, 
  this is the only place where &quot;ownership&quot; really applies anywhere 
- within MindjetGraph.</span></p>
+ within SpigitGraph.</span></p>
 <p><a class="rvts14" href="tenantclass.htm">Tenants</a> <span class="rvts6">correspond 
  to business entities that are clients of the Mindjet system. &#160;Essentially, 
  tenants correspond to the elements in the Real World that sign up or contract 
@@ -155,11 +159,20 @@ function onSetStartPage()
  <span class="rvts6">property has a multiplicity of &quot;1..*&quot;, meaning 
  that there must be at least one. &#160;Any one tenant may incorporate 
  multiple dataSpaces and multiple communities, but it must have at least 
- one of each. &#160;At its simplest, a MindjetGraph tenant is made up of 
+ one of each. &#160;At its simplest, a SpigitGraph tenant is made up of 
  one each of a tenant, dataSpace and community entity, forming a kind of 
  triangle. &#160;Communities and dataSpaces maybe added as it makes sense.</span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--
