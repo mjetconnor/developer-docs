@@ -62,7 +62,7 @@ if (window.gbWhTopic)
 
 	if (window.addTocInfo)
 	{
-	addTocInfo("SpigitEngage\nSpigit Installations");
+	addTocInfo("SpigitGraph and Spigit\nSpigit Installations");
 addAvenueInfo("Basic Sequence","applications.htm","entity_ids_in_spigitengage.htm");
 addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
@@ -76,7 +76,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 	
 	document.write("<p style=\"text-align:left\"> ");
 AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
-document.write("<a href=\"spigitengageandmindjetgraph.htm\">SpigitEngage<\/a> &nbsp;&gt; Spigit Installations<\/p>");
+document.write("<a href=\"spigitengageandmindjetgraph.htm\">SpigitGraph and Spigit<\/a> &nbsp;&gt; Spigit Installations<\/p>");
 
 }
 else
@@ -118,17 +118,17 @@ function onSetStartPage()
 </div>
 
 
-<h1><span class="rvts6">Spigit Engage Installations</span></h1>
+<h1><span class="rvts6">Spigit Installations - Tenants</span></h1>
 <p><span class="rvts6">Each Spigit</span> <span class="rvts6" style="font-style: italic; 
-														 font-weight: bold;"><i>installation</i></span><span 
+												 font-weight: bold;"><i>installation</i></span><span 
 	 class="rvts6">, also known as an</span> <span class="rvts6" style="font-style: italic; 
 													 font-weight: bold;"><i>instance</i></span><span 
 	 class="rvts6">, is a</span> <b id="docs-internal-guid-000ccdee-862b-c88c-f86a-955772fc3a0b11"><span 
 	 class="rvts6" style="font-family: Arial; font-weight: normal;">dedicated 
  set of services and a data repository that supply the infrastructure for 
- Spigit in support of a specific customer. &#160;&#160;&#160;The 
- instance is addressable via a &quot;spigit.com&quot; sub-domain or in 
- some cases via a vanity URL. &#160;For example:</span></b></p>
+ Spigit in support of a specific customer. &#160;&#160;&#160;The instance 
+ is addressable via a &quot;spigit.com&quot; sub-domain or in some cases 
+ via a vanity URL. &#160;For example:</span></b></p>
 <table style="margin-right: 4px; margin-top: 2px; margin-bottom: 2px; left: 0px; 
 		 top: 60px; height: 41px; margin-left: 24px;" cellspacing="0" width="1028">
 	<col style="width: 16.909%;" />
@@ -155,9 +155,9 @@ function onSetStartPage()
  &quot;spigit.com&quot; sub-domains.</span></b></p>
 <p>In the SpigitGraph data model, instances as a whole are represented 
  by <a href="tenantclass.htm">Tenant</a> entities. </p>
-<p>Spigit instances have multiple entry points, each with distinct 
- membership rules and access controls. &#160;Spigit refers to these 
- access points as <span style="font-weight: bold; font-style: italic;"><i>communities</i></span>. 
+<p>Spigit instances have multiple entry points, each with distinct membership 
+ rules and access controls. &#160;Spigit refers to these access points 
+ as <span style="font-weight: bold; font-style: italic;"><i>communities</i></span>. 
  &#160;<b id="docs-internal-guid-f0bc2e1c-863a-b851-1ec7-d7195d780d85"><span 
 	 style="line-height: 1.15; font-family: Arial; font-weight: normal;">Communities 
  can be designed to address different audiences, agendas, geographical 
@@ -172,9 +172,8 @@ function onSetStartPage()
  sub-domain, such as:</span></b> <b id="docs-internal-guid-f0bc2e1c-863a-b851-1ec7-d7195d780d851"><span 
 	 style="line-height: 1.15; color: #1155cc; font-weight: normal; font-family: Arial, sans-serif;"><font color="#1155cc" ><a 
 	 href="http://www.mycompany.spigit.com" style="text-decoration: none; ">http://www.mycompany.spigit.com</a></font></span></b><span 
-	 style="line-height: 1.15; font-family: Arial, sans-serif;">. 
- &#160;Some Spigit instances are set up with a different sub-domain 
- as the</span> <b id="docs-internal-guid-f0bc2e1c-863a-b851-1ec7-d7195d780d8511"><span 
+	 style="line-height: 1.15; font-family: Arial, sans-serif;">. &#160;Some Spigit instances are 
+ set up with a different sub-domain as the</span> <b id="docs-internal-guid-f0bc2e1c-863a-b851-1ec7-d7195d780d8511"><span 
 	 style="line-height: 1.15; font-family: Arial, sans-serif; font-weight: normal;">primary</span></b> 
  <span style="line-height: 1.15; font-family: Arial, sans-serif;">community 
  and may not use &quot;www.&quot; at all. &#160;</span><b 
@@ -198,18 +197,17 @@ function onSetStartPage()
  2.0</a> pages refer to these starting &#160;point URLs as <span class="rvts13" 
 	 style="font-style: italic;"><i>authorizationServiceURLs</i></span><span 
 	 class="rvts6">.</span> &#160;For Spigit, these <span class="rvts13" 
-	 style="font-style: italic;"><i>authorizationServiceURL</i></span> are the 
- URLs for the communities in an instance.</p>
-<p dir="ltr">If a user already has a Spigit session active in their 
- browser, the OAuth 2.0 flow will simply recognize that user as the authenticated 
+															 style="font-style: italic;"><i>authorizationServiceURL</i></span> 
+ are the URLs for the communities in an instance.</p>
+<p dir="ltr">If a user already has a Spigit session active in their browser, 
+ the OAuth 2.0 flow will simply recognize that user as the authenticated 
  user. &#160;But if there is not an active session, the authentication 
  process is the one dictated by the community used as the <span class="rvts13" 
 	 style="font-style: italic;"><i>authorizationServiceURL</i></span>. &#160;Some 
  communities may use username/password login pages, others may be associated 
- with various SAML or LDAP connectors, all within the same Spigit 
- instance. &#160;It is important that authentication begins with the same 
- community URL that a user uses to access the Spigit web app in their 
- normal usage.</p>
+ with various SAML or LDAP connectors, all within the same Spigit instance. 
+ &#160;It is important that authentication begins with the same community 
+ URL that a user uses to access the Spigit web app in their normal usage.</p>
 <p dir="ltr" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt; 
 	 font-family: Arial, sans-serif; font-weight: normal; font-size: 10pt;">&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
