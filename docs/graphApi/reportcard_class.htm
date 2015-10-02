@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="NOODP" />
+ <meta name="generator" content="Adobe RoboHelp 11" />
+<title>ReportCard Class</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Reference\nDataypes and Classes\nIdea Datatypes\nReportCard Class");
+addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
+document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; <a href=\"ideadatatypes.htm\">Idea Datatypes<\/a> &nbsp;&gt; ReportCard Class<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('content.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<div style="width: 100%; position: relative;" id="header">
+	
+ <div class="Head_Foot" style="margin-left: 6pt; 
+												 text-align: none; height: 16px;">
+		<div style="float: right;">
+			<span style="vertical-align: top; color: #0099cc;"><font color="#0099cc" >Spigit Graph 
+			 AP</font></span><span style="vertical-align: top;">I &#160;&#160;<a 
+			 href="javascript:history.go(-1)" title="Go Back"><img alt="" 
+			 src="blue_left.png" /></a></span> <a href="javascript:history.go(1)" 
+													 title="Go Forward"><img 
+			 alt="" src="blue_right.png" /></a> 
+		</div>
+	</div>
+</div>
+
+
+<h1>ReportCard Class</h1>
+<p><span class="rvts17" style="font-weight: bold;">Concepts</span><span 
+	 class="rvts17">:</span> <a class="rvts14" href="ideaconcepts.htm">Idea 
+ Concepts</a></p>
+<p style="font-style: italic;"><span class="rvts6"><i><a href="version_history.htm" style="font-style: italic;">Version 
+ 3.8.0 and later</a></i></span></p>
+<p><span class="rvts6">ReportCards provide information about how an idea 
+ is progressing in relation to graduation criteria, as well as a graduation 
+ history.</span></p>
+<p>&#160;</p>
+<div class="rvps2">
+	<table class="TopRow" style="border: solid 1px #000000;" cellspacing="0" 
+			 width="100%">
+		<tr class="t1st" style="vertical-align: top;">
+			<td style="border: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="76" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-left: 0pt; margin-top: 0pt; 
+				 margin-bottom: 4.5pt;"><span class="rvts17">Property</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="85" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-left: 0pt; margin-top: 0pt; 
+				 margin-bottom: 4.5pt;"><span class="rvts17">Datatype</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="58" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-left: 0pt; margin-top: 0pt; 
+				 margin-bottom: 4.5pt;"><span class="rvts17">Req</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="382" 
+				 bgcolor="#CEE0F2"><p style="font-weight: bold; margin-left: 0pt; 
+										 margin-top: 0pt; margin-bottom: 4.5pt;"><span 
+			 class="rvts17">Description</span></p></td>
+		</tr>
+		<tr class="t1Row" style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="76"><p 
+				 style="margin-left: 0pt; margin-top: 0pt; margin-bottom: 4.5pt;"><span 
+			 class="rvts6">activities</span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="85">Collection of <a href="plainobject_class.htm">PlainObject</a></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="58"><p style="margin-left: 0pt; 
+													 margin-top: 0pt; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="382"><p style="margin-left: 0pt; 
+														 margin-top: 0pt; 
+														 margin-bottom: 4.5pt;">Each 
+			 element of this collection identifies a graduation event for 
+			 the idea. &#160;The elements are PlainObjects that have these 
+			 properties:</p>
+			<table style="border-collapse: separate;" width="100%" border="1">
+				<col style="width: 11.526%;" />
+				<col style="width: 24.111%;" />
+				<col style="width: 64.363%;" />
+				<tr>
+					<td>stage</td>
+					<td><a href="stageclass.htm">Stage</a></td>
+					<td>The stage to which the idea graudated.</td>
+				</tr>
+				<tr>
+					<td>date</td>
+					<td><p style="margin-left: 0in; margin-top: 0pt; margin-bottom: 4.5pt;"><a class="rvts14" href="xmlbaseddatatypes.htm">DateTime</a></p></td>
+					<td>When the graduation occurred.</td>
+				</tr>
+			</table>
+			<p style="margin-left: 0pt; margin-top: 0pt; margin-bottom: 4.5pt;">&#160;</p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="76"><p 
+				 style="margin-left: 0pt; margin-top: 0pt; margin-bottom: 4.5pt;">completed</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="85"><a href="plainobject_class.htm">PlainObject</a></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="58"><p style="margin-left: 0pt; 
+													 margin-top: 0pt; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">SHOULD</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="382"><p style="margin-left: 0pt; 
+														 margin-top: 0pt; 
+														 margin-bottom: 4.5pt;">For 
+			 every graduation criterion in effect, there is a property 
+			 in this object whose name is the graduation criterion name 
+			 and whose value is the percent completion as a decimal number 
+			 from 0.0 to 1.0.</p>
+			<p style="margin-left: 0pt; margin-top: 0pt; margin-bottom: 4.5pt;">In 
+			 addition, there is a property named &quot;overall&quot; whose 
+			 value is the percent completion of the idea as a whole, with 
+			 all individual criteria factored together.</p>
+			<p style="margin-left: 0pt; margin-top: 0pt; margin-bottom: 4.5pt;">See 
+			 the <a href="ideaclass.htm">Idea class</a> for the list of 
+			 defined graduation criterion properties.</p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="76"><p 
+				 style="margin-left: 0pt; margin-top: 0pt; margin-bottom: 4.5pt;">governor</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="85"><a href="governorclass.htm">Governor</a></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="58"><p style="margin-left: 0pt; 
+													 margin-top: 0pt; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">RULE</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="382"><p style="margin-left: 0pt; 
+														 margin-top: 0pt; 
+														 margin-bottom: 4.5pt;">The 
+			 governor for the idea described by this reportCard.</p></td>
+		</tr>
+	</table>
+</div>
+<p><span class="rvts6"><br />
+</span></p>
+<div style="width: 100%; position: relative;" id="footer">
+	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a><span 
+	 style="font-style: italic;"><i> &#160;&#160;&#160;&#160;</i></span><span 
+	 style="color: #808080;"><font color="gray" >|</font></span><span style="font-style: italic;"><i> 
+	 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a></i></span></p>
+</div>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

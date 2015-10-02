@@ -31,8 +31,8 @@ function delayReload()
 	}
 }
 
-var gsToolbarOrder = "custom12417|toc|fts|blankblock";
-var gsMinibarOrder = "rolesel|blankblock|synctoc|hide2|";
+var gsToolbarOrder = "custom12417|toc|fts|blankblock|searchform";
+var gsMinibarOrder = "avprev|avnext|rolesel|blankblock|synctoc|hide2|";
 
 var gsTopic = "welcometospigitgraphdevelopersg.htm";
 var PANE_OPT_SEARCH = 1;

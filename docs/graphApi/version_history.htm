@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="NOODP" />
+ <meta name="generator" content="Adobe RoboHelp 11" />
+<title>Version History</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SpigitEngage\nVersion History");
+addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
+document.write("<a href=\"spigitengageandmindjetgraph.htm\">SpigitEngage<\/a> &nbsp;&gt; Version History<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('content.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<div style="width: 100%; position: relative;" id="header">
+	
+ <div class="Head_Foot" style="margin-left: 6pt; 
+												 text-align: none; height: 16px;">
+		<div style="float: right;">
+			<span style="vertical-align: top; color: #0099cc;"><font color="#0099cc" >Spigit Graph 
+			 AP</font></span><span style="vertical-align: top;">I &#160;&#160;<a 
+			 href="javascript:history.go(-1)" title="Go Back"><img alt="" 
+			 src="blue_left.png" /></a></span> <a href="javascript:history.go(1)" 
+													 title="Go Forward"><img 
+			 alt="" src="blue_right.png" /></a> 
+		</div>
+	</div>
+</div>
+
+
+<h1><span class="rvts6">Version History</span></h1>
+<p>API related feature changes by versions of Spigit Engage.</p>
+<p>&#160;</p>
+<p style="font-weight: bold; font-size: 12pt; color: #008080;"><span><font size="3" color="teal" style="font-size:12.000000pt;">3.8.2</font></span></p>
+<table class="Mindjet_invisible" width="100%">
+	<col style="width: 17.789%;" />
+	<col style="width: 82.211%;" />
+	<tr>
+		<td><a href="ideascoreclass.htm">IdeaScore</a> type</td>
+		<td>Added new properties: &#160;pulseRate, qualityRating
+		<br />See: <a href="ideascoreclass.htm">IdeaScore</a> 
+		 class</td>
+	</tr>
+	<tr>
+		<td><a href="ideaclass.htm">Idea</a> type</td>
+		<td>Added PUT parameters: stage, subject, inquiry
+		<br />See: <a href="puts_to_ideas.htm">Puts to Ideas</a></td>
+	</tr>
+	<tr>
+		<td><a href="userclass.htm">User</a> type</td>
+		<td>Added PUT parameters: username, mbox, &lt;user attributes&gt;
+		<br />See: <a href="puts_to_users.htm">Puts to Users</a></td>
+	</tr>
+	<tr>
+		<td><a href="tenantclass.htm">Tenant</a> type</td>
+		<td>Added POST action: posting type:User
+		<br />See: <a href="posts_to_tenants.htm">Posts to 
+		 Tenants</a></td>
+	</tr>
+</table>
+<p>&#160;</p>
+<p style="font-weight: bold; font-size: 12pt; color: #008080;"><span style="font-weight: bold; 
+	 font-size: 12pt; color: #008080;"><font size="3" color="teal" style="font-size:12.000000pt;">3.8.0</font></span></p>
+<table class="Mindjet_invisible" width="100%">
+	<col style="width: 17.789%;" />
+	<col style="width: 82.211%;" />
+	<tr>
+		<td><a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/TenantClass.htm">Tenant</a> 
+		 type</td>
+		<td>Added new properties: &#160;version
+		<br />See: <a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/TenantClass.htm">Tenant</a> 
+		 class</td>
+	</tr>
+	<tr>
+		<td><a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/IdeaScoreClass.htm">IdeaScore</a> 
+		 type</td>
+		<td>Added new properties: &#160;reportCard
+		<br />See: <a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/IdeaScoreClass.htm">IdeaScore</a> 
+		 class</td>
+	</tr>
+	<tr>
+		<td ><a href="reportcard_class.htm">ReportCard</a> type</td>
+		<td >Added new entity type
+		<br />See: <a href="reportcard_class.htm">ReportCard</a> 
+		 class</td>
+	</tr>
+</table>
+<p>&#160;</p>
+<p style="font-weight: bold; font-size: 12pt; color: #008080;"><span style="font-weight: bold; 
+	 font-size: 12pt; color: #008080;"><font size="3" color="teal" style="font-size:12.000000pt;">3.7.0</font></span></p>
+<table class="Mindjet_invisible" width="100%">
+	<col style="width: 17.789%;" />
+	<col style="width: 82.211%;" />
+	<tr>
+		<td><a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/TenantClass.htm">Tenant</a> 
+		 type</td>
+		<td>Added new properties: &#160;aggregateIdeaSet, inquiries, users, 
+		 version
+		<br />See: <a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/TenantClass.htm">Tenant</a> 
+		 class</td>
+	</tr>
+	<tr>
+		<td><a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/IdeaScoreClass.htm">IdeaScore</a> 
+		 type</td>
+		<td>Added new properties: &#160;predictionResult, &lt;graduation 
+		 criterion properties&gt;
+		<br />See: <a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/IdeaScoreClass.htm">IdeaScore</a> 
+		 class</td>
+	</tr>
+	<tr>
+		<td><a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/InquiryClass.htm">Inquiry</a> 
+		 type</td>
+		<td>Added POST action: get a set of pairwise ballots
+		<br />See: <a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/Post_to_Inquiry.htm">Posts 
+		 to Inquiries</a></td>
+	</tr>
+	<tr>
+		<td ><a href="inquiryclass.htm">Inquiry</a> type</td>
+		<td >Added POST action: post a pairwise vote
+		<br />See: <a href="post_to_inquiry.htm">Posts to Inquiries</a></td>
+	</tr>
+	<tr>
+		<td><a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/InquiryClass.htm">Inquiry</a> 
+		 type</td>
+		<td>Added POST action: get a prediction questionnaire
+		<br />See: <a href="Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/Users/mconnor.MINDJETCORP/Google Drive/Engage Platform/Engage Platform Docs/MindjetGraph API Tip/Post_to_Inquiry.htm">Posts 
+		 to Inquiries</a></td>
+	</tr>
+	<tr>
+		<td><a href="ideaclass.htm">Idea</a> type</td>
+		<td>Added POST action: post a prediction review
+		<br />See: <a href="post_to_idea.htm">Posts to Ideas</a></td>
+	</tr>
+</table>
+<p style="font-weight: bold; font-size: 12pt; color: #008080;">&#160;</p>
+<p style="font-weight: bold; font-size: 12pt; color: #008080;">3.6.0</p>
+<p>Initial release of SpigitGraph.</p>
+<p>&#160;</p>
+<div style="width: 100%; position: relative;" id="footer">
+	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a><span 
+	 style="font-style: italic;"><i> &#160;&#160;&#160;&#160;</i></span><span 
+	 style="color: #808080;"><font color="gray" >|</font></span><span style="font-style: italic;"><i> 
+	 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a></i></span></p>
+</div>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

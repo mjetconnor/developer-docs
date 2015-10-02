@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="NOODP" />
+ <meta name="generator" content="Adobe RoboHelp 11" />
+<title>Posts to Tenants</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SpigitEngage\nUpdating Spigit\nPosts to Tenants");
+addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
+document.write("<a href=\"spigitengageandmindjetgraph.htm\">SpigitEngage<\/a> &nbsp;&gt; <a href=\"posting_to_spigitengage.htm\">Updating Spigit<\/a> &nbsp;&gt; Posts to Tenants<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('content.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<div style="width: 100%; position: relative;" id="header">
+	
+ <div class="Head_Foot" style="margin-left: 6pt; 
+												 text-align: none; height: 16px;">
+		<div style="float: right;">
+			<span style="vertical-align: top; color: #0099cc;"><font color="#0099cc" >Spigit Graph 
+			 AP</font></span><span style="vertical-align: top;">I &#160;&#160;<a 
+			 href="javascript:history.go(-1)" title="Go Back"><img alt="" 
+			 src="blue_left.png" /></a></span> <a href="javascript:history.go(1)" 
+													 title="Go Forward"><img 
+			 alt="" src="blue_right.png" /></a> 
+		</div>
+	</div>
+</div>
+
+
+<h1><span class="rvts6">Posts to Tenant Entities</span></h1>
+<p>Post requests are handled as defined here when the target is an entity 
+ of type <a href="tenantclass.htm">Tenant</a>. &#160;The appropriate response 
+ is determined by the action and type post properties.</p>
+<p style="font-weight: bold; font-size: 12pt; color: #008080;">Post a user</p>
+<p style="font-style: italic;"><a href="version_history.htm" style="font-style: italic;">Version 
+ 3.8.2 and later</a></p>
+<div class="rvps2">
+	<table class="TopRow" style="border: solid 1px #000000;" cellspacing="0" 
+			 width="100%">
+		<tr class="t1st" style="vertical-align: top;">
+			<td style="border: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="77" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-left: 0pt; margin-bottom: 4.5pt; 
+				 margin-top: 0pt;"><span class="rvts17">Post property</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="92" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-left: 0pt; margin-bottom: 4.5pt; 
+				 margin-top: 0pt;"><span class="rvts17">Datatype</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="53" bgcolor="#CEE0F2"><p 
+				 style="font-weight: bold; margin-left: 0pt; margin-bottom: 4.5pt; 
+				 margin-top: 0pt;"><span class="rvts17">Req</span></p></td>
+			<td style="border-top: solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="375" 
+				 bgcolor="#CEE0F2"><p style="font-weight: bold; margin-left: 0pt; 
+										 margin-bottom: 4.5pt; margin-top: 0pt;"><span 
+			 class="rvts17">Description</span></p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="77"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt; 
+				 font-weight: bold;">action</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="92"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;"><span 
+			 class="rvts14"><a class="rvts14" href="rdfandowldatatypes.htm">String</a></span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="53"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;"><a href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="375"><p style="margin-left: 0pt; 
+														 margin-bottom: 4.5pt; 
+														 margin-top: 0pt;"><span 
+			 style="font-weight: bold;">&quot;post&quot;</span> or undefined</p></td>
+		</tr>
+		<tr class="t2Row" style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="77"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt; 
+				 font-weight: bold;"><span class="rvts6">type</span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="92"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;"><span 
+			 class="rvts14"><a class="rvts14" href="rdfandowldatatypes.htm">String</a></span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="53"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">MUST</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="375"><p style="margin-left: 0pt; 
+														 margin-bottom: 4.5pt; 
+														 margin-top: 0pt; 
+														 font-weight: bold;"><span 
+			 class="rvts6">&quot;User&quot;</span></p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="77"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt; 
+				 font-style: normal; font-weight: normal;">username</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="92"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;"><span 
+			 class="rvts14"><a class="rvts14" href="rdfandowldatatypes.htm">String</a></span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="53"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;">&#160;</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="375"><p style="margin-left: 0pt; 
+														 margin-bottom: 4.5pt; 
+														 margin-top: 0pt;">The 
+			 user's username.</p></td>
+		</tr>
+		<tr style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="77"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt; 
+				 font-style: normal; font-weight: normal;">mbox</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="92"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;"><span 
+			 class="rvts14"><a class="rvts14" href="rdfandowldatatypes.htm">String</a></span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="53"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;">&#160;</p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="375"><p style="margin-left: 0pt; 
+														 margin-bottom: 4.5pt; 
+														 margin-top: 0pt;">The 
+			 user's email address.</p></td>
+		</tr>
+		<tr class="t1Row" style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="77"><p 
+				 style="margin-left: 0pt; margin-bottom: 4.5pt; margin-top: 0pt; 
+				 font-style: italic;"><span class="rvts6"><i>user attribute 
+			 properties</i></span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="92"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;"><span 
+			 class="rvts14"><a class="rvts14" href="rdfandowldatatypes.htm">String</a></span></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="53"><p style="margin-left: 0pt; 
+													 margin-bottom: 4.5pt; 
+													 margin-top: 0pt;"><a href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
+			<td style="border-right: solid 1px #000000; border-bottom: solid 1px #000000; 
+				 padding-left: 6px; padding-top: 6px; padding-right: 6px; 
+				 padding-bottom: 6px;" width="375"><p style="margin-left: 0pt; 
+														 margin-bottom: 4.5pt; 
+														 margin-top: 0pt;">Other 
+			 user attributes to set for the user. &#160;They all have <span 
+			 class="rvts14"><a class="rvts14" href="rdfandowldatatypes.htm">String</a> 
+			 type</span> values.</p></td>
+		</tr>
+	</table>
+</div>
+<p><span style="font-size: 10pt; font-weight: bold; color: #0000ff;"><font size="2" color="blue" style="font-size:10.000000pt;">Returns</font></span><span 
+	 style="color: #800080; font-size: 10pt; font-weight: bold;"><font size="2" color="purple" style="font-size:10.000000pt;">:</font></span> 
+ &#160;The created or found <a href="userclass.htm">User</a> entity.</p>
+<p>Post a user to the tenant.</p>
+<p>A user with the matching username or email address (mbox) is looked 
+ up. &#160;If such a user already exists, this post request updates that 
+ user's attributes with the values given in this request as if they were 
+ PUT to that user (see <a href="puts_to_users.htm">Puts to Users</a>). 
+ &#160;Attributes not included in the request are not changed in the existing 
+ user.</p>
+<p>If no such user is found, a new user is created using the given username 
+ and email address. &#160;All of the additional attribute values given 
+ in the request are also set on the new user.</p>
+<p>An existing user can be found with either the username or the email 
+ address. &#160;Both are not required. &#160;But if a user does not already 
+ exist, both are required. &#160;For instance, a request can be made specifying 
+ the mbox but not the username. &#160;But if there is no existing user 
+ with a matching email address, an error will be returned.</p>
+<p>Only a super-admin may execute this request.</p>
+<p>&#160;</p>
+<div style="width: 100%; position: relative;" id="footer">
+	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a><span 
+	 style="font-style: italic;"><i> &#160;&#160;&#160;&#160;</i></span><span 
+	 style="color: #808080;"><font color="gray" >|</font></span><span style="font-style: italic;"><i> 
+	 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a></i></span></p>
+</div>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\" ?><contentlist><content name=\"SpigitGraph API Guide\" value=\"content.htm\" selected=\"selected\" /><content name=\"SpigitGraph API for Launchpad Developement\" value=\"../launchpad/launchpad.htm\" /><content name=\"SpigitGraph API -- Future\" value=\"../future/future.htm\" /></contentlist>";
