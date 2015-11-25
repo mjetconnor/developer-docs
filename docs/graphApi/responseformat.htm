@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(0);
+  autoSync(1);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -114,7 +114,13 @@ function onSetStartPage()
  <p class="Head_Foot" style="text-align: right; 
 											 margin-left: 6pt; font-size: 11pt; 
 											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;">API for Spigit</p>
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
+	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
+	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
+															 width="20" 
+															 height="16" /></a> 
+	 </p>
 </div>
 
 
@@ -129,7 +135,8 @@ function onSetStartPage()
 <p><span class="rvts6">The specific format of the query response is the 
  one requested by either the Content-Type header or</span> <span class="rvts13" 
 	 style="font-style: italic;"><i>format</i></span> <span class="rvts6">query 
- parameter. &#160;The default is JSON. </span></p>
+ parameter. &#160;The default is JSON. </span><span 
+	 class="rvts6">&#160;[[ Future: XML is also supported. ]]</span></p>
 <p><span class="rvts6">Regardless of format, or even the kind of query 
  or HTTP method, all responses have a common structure. &#160;The top level 
  elements are always:</span></p>
@@ -317,8 +324,48 @@ function onSetStartPage()
 	</tr>
 </table>
 <p class="Code_table" style="margin-left: 12px;">&#160;</p>
-
-
+<p class="Code_table" style="margin-left: 12px;"><span 
+	 class="rvts17" style="font-weight: bold;">Example response in XML:</span><span 
+	 class="rvts17">&#160;</span>&#160;<span class="rvts6">[[ tentative! 
+ ]]</span></p>
+<table class="Code" style="margin-left: 40px;" 
+													 cellspacing="0" width="100%" 
+													 align="center">
+	<col style="width: 100%;" />
+	<tr>
+		<td><p class="Code_table" style="margin-left: 12px;"><span class="rvts6">&lt;?xml 
+		 version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;</span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6">&lt;response</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">xmlns=&quot;???&quot;</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">xmlns:sief=&quot;http://purl.org/sief/2013/10/&quot;</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">xmlns:rdfs=&quot;http://www.w3.org/2000/01/rdf-schema#&quot;</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">xmlns:owl=&quot;http://www.w3.org/2002/07/owl#&quot;</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6"><br />
+		 </span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">xmlns:_ds=&quot;https://www.example.mindjet.com/api/ds1/&quot;</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">xmlns:_host=&quot;https://www.example.mindjet.com/api/&quot;</span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6">&gt;</span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6">&lt;version&gt;1.0&lt;/version&gt;</span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6">&lt;query&gt;GET 
+		 https://www.example.mindjet.com/api/ds1/tenant-1&lt;/query&gt;</span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6">&lt;results&gt;</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">&lt;result&gt;</span></p>
+		<p class="Code_table" style="margin-left: 92px;"><span class="rvts6">&lt;sief:eid&gt;_ds:tenant-1&lt;/sief:eid&gt;</span></p>
+		<p class="Code_table" style="margin-left: 92px;"><span class="rvts6">&lt;sief:type&gt;Tenant&lt;/sief:type&gt;</span></p>
+		<p class="Code_table" style="margin-left: 92px;"><span class="rvts6">&lt;sief:created&gt;2013-03-12T17:15:21.000Z&lt;/sief:created&gt;</span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6"><br />
+		 </span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6">... 
+		 etc. ...</span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6"><br />
+		 </span></p>
+		<p class="Code_table" style="margin-left: 92px;"><span class="rvts6">&lt;result&gt;</span></p>
+		<p class="Code_table" style="margin-left: 52px;"><span class="rvts6">&lt;/results&gt;</span></p>
+		<p class="Code_table" style="margin-left: 12px;"><span class="rvts6">&lt;/response&gt;</span></p>
+		<p class="Code_table" style="margin-left: 12px;">&#160;</p></td>
+	</tr>
+</table>
 <p class="Code_table" style="margin-left: 12px;">&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	

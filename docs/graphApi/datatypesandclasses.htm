@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  <meta name="generator" content="Adobe RoboHelp 11" />
 <title>Datatypes and Classes</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
 <!--[if lte IE 8]>
                 <link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
         <![endif]-->
@@ -14,7 +15,6 @@
 -->
 </style>
 <script type="text/javascript" src="../MJG1/js/chmRelative.js" language="JavaScript1.2"></script>
- <link rel="StyleSheet" href="default.css" type="text/css" />
 <script type="text/javascript" language="JavaScript">
 //<![CDATA[
 function reDo() {
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(0);
+  autoSync(1);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -114,20 +114,133 @@ function onSetStartPage()
  <p class="Head_Foot" style="text-align: right; 
 											 margin-left: 6pt; font-size: 11pt; 
 											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;">API for Spigit</p>
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
+	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
+	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
+															 width="20" 
+															 height="16" /></a> 
+	 </p>
 </div>
 
 
 <h1>Datatypes and Classes</h1>
-<p><a href="alphaclass_index.htm">The Class Index</a></p>
-<p><a href="propertiesindex.htm">The Properties Index</a></p>
-<p><a href="primitive_datatypes.htm">Primitive Datatypes</a></p>
-<p><a href="generalpurposedatatypes.htm">General Purpose Datatypes</a></p>
-<p><a href="infrastructuredatatypes.htm">Infrastructure&#160;Datatypes</a></p>
-<p><a href="agentdatatypes.htm">Agent&#160;Datatypes</a></p>
-<p><a href="ideadatatypes.htm">Idea&#160;Datatypes</a></p>
-<p><a href="collaborationdatatypes.htm">Collaboration&#160;Datatypes</a></p>
-<p><a href="assessmentdatatypes.htm">Assessment&#160;Datatypes</a></p>
+<p><span class="rvts6">This section contains the normative description 
+ of the datatypes and classes used in SpigitGraph. &#160;Each class description 
+ shows the super-classes, if any, for that class, as well as a list of 
+ the properties defined for the class.</span></p>
+<p>&#160;</p>
+<p><a href="alphaclass_index.htm">Classes by Category</a> &#160;-- An index 
+ that groups classes together into broad usage categories</p>
+<p><a href="propertiesindex.htm">The Properties Index</a> &#160;-- An index 
+ of properties across all classes</p>
+<p><a href="primitive_datatypes.htm">Primitive Datatypes</a> &#160;-- A 
+ description of the primitive types and general object constructs</p>
+<p>&#160;</p>
+<p><span 
+	 class="rvts6"><a href="acceptanceclass.htm"><span class="rvts6">A</span>cceptance 
+ Class</a></span></p>
+<p><span class="rvts6"><a href="activityclass.htm">Activity Class</a></span></p>
+<p><span class="rvts6"><a href="activityeventclass.htm">ActvityEvent Class</a></span></p>
+<p><span class="rvts6"><a href="agentclass.htm">Agent Class</a></span></p>
+<p><a href="applicationclass.htm"><span class="rvts6">Application Class</span></a></p>
+<p><a href="assessmentclass.htm"><span class="rvts6">Assessment Class</span></a></p>
+<p><span 
+	 class="rvts6"><a href="assignmentclass.htm">Assignment Class</a></span></p>
+<p><span class="rvts6"><a href="ballotclass.htm"><span class="rvts6">B</span>allot 
+ Class</a></span></p>
+<p><span class="rvts6"><a href="benchmarkclass.htm">Benchmark Class</a></span></p>
+<p><span 
+	 class="rvts6"><a href="bidclass.htm">Bid Class</a></span></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">Boolean Class</a></span></p>
+<p><span class="rvts6"><a href="challengeclass.htm">Challenge Class</a></span></p>
+<p><span class="rvts6"><a href="rdfandowldatatypes.htm">Class Class</a></span></p>
+<p><span class="rvts6"><a href="collaborationclass.htm">Collaboration Class</a></span></p>
+<p><span class="rvts6"><a href="commentclass.htm">Comment Class</a></span></p>
+<p><span class="rvts6"><a href="communityclass.htm">Community Class</a></span></p>
+<p><a href="conceptclass.htm">Concept Class</a></p>
+<p><a href="conceptschemeclass.htm">ConceptScheme Class</a></p>
+<p><a href="countryclass.htm">Country Class</a></p>
+<p><a href="currencyclass.htm">Currency 
+ Class</a></p>
+<p><span class="rvts6"><a href="dataspaceclass.htm">DataSpace Class</a></span></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">Date Class</a></span></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">DateTime Class</a></span></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">Decimal Class</a></span></p>
+<p><span class="rvts6"><a href="discussionclass.htm">Discussion Class</a></span></p>
+<p><a href="emailaddressclass.htm">EmailAddress Class</a></p>
+<p><span class="rvts6"><a href="entityclass.htm">Entity Class</a></span></p>
+<p><span class="rvts6"><a href="entitystatusclass.htm">EntityStatus Class</a></span></p>
+<p><span class="rvts6"><a href="eventclass.htm">Event Class</a></span></p>
+<p><a href="facetclass.htm">Facet Class</a></p>
+<p><a href="formclass.htm">Form Class</a></p>
+<p><a href="formdataclass.htm">FormData Class</a></p>
+<p><a href="formfieldclass.htm">FormField&#160;Class</a></p>
+<p><a href="formfieldoption.htm">FormFieldOption</a></p>
+<p><a href="fusionactionclass.htm"><span class="rvts6"><span 
+	 class="rvts6">F</span>usionAction Class</span></a></p>
+<p><a href="fusiontaskclass.htm"><span class="rvts6">FusionTask Class</span></a></p>
+<p><a href="genderclass.htm"><span class="rvts6">Gender Class</span></a></p>
+<p><span class="rvts6"><a href="governorclass.htm"><span class="rvts6">G</span>overnor 
+ Class</a></span></p>
+<p><span class="rvts6"><a href="groupclass.htm">Group Class</a></span></p>
+<p><span class="rvts6"><a href="ideaclass.htm">Idea Class</a></span></p>
+<p><span class="rvts6"><a href="ideascoreclass.htm">IdeaScore Class</a></span></p>
+<p><span class="rvts6"><a href="ideasetclass.htm">IdeaSet Class</a></span></p>
+<p><a href="imageclass.htm">Image&#160;Class</a></p>
+<p><span class="rvts6"><a href="inquiryclass.htm">Inquiry Class</a></span></p>
+<p><span class="rvts6"><a href="inquiryscoreclass.htm">InquiryScore Class</a></span></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">Integer Class</a></span></p>
+<p><a href="languageclass.htm">Language &#160;Class</a></p>
+<p><span class="rvts6"><a href="lifecycleclass.htm">LifeCycle Class</a></span></p>
+<p><a href="likeballotclass.htm"><span class="rvts6">LikeBallot Class</span></a></p>
+<p><a href="mediabundleclass.htm">MediaBundle Class</a></p>
+<p><a href="mediaresourceclass.htm">MediaResource&#160;Class</a></p>
+<p><a href="mediatypeclass.htm">MediaType&#160;Class</a></p>
+<p><a href="moneyclass.htm">Money Class</a></p>
+<p><span 
+	 class="rvts6"><a href="occupationclass.htm">Occupation Class</a></span></p>
+<p><span 
+	 class="rvts6"><a href="offerclass.htm"><span class="rvts6">O</span>ffer 
+ Class</a></span></p>
+<p><a href="organizationclass.htm"><span class="rvts6">Organization Class</span></a></p>
+<p><a href="pairwiseballotclass.htm"><span class="rvts6"><span class="rvts6">P</span>airwiseBallot 
+ Class</span></a></p>
+<p><span class="rvts6"><a href="personclass.htm">Person Class</a></span></p>
+<p><a href="phaseclass.htm">Phase&#160;Class</a></p>
+<p><a href="phonenumberclass.htm">PhoneNumber Class</a></p>
+<p><a href="plainobject_class.htm">PlainObject Class</a></p>
+<p><a href="postaladdressclass.htm">PostalAddress Class</a></p>
+<p><a href="promptstyleclass.htm">PromptStyle &#160;Class</a></p>
+<p><a href="questionnaireclass.htm"><span class="rvts6">Questionnaire Class</span></a></p>
+<p><a href="referenceclass.htm">Reference Class</a></p>
+<p><a href="referenceroleclass.htm">ReferenceRole Class</a></p>
+<p><a href="reportcard_class.htm"><span class="rvts6">ReportCard Class</span></a></p>
+<p><span class="rvts6"><a href="rdfandowldatatypes.htm">Resource Class</a></span></p>
+<p><a href="reviewclass.htm"><span class="rvts6"><span class="rvts6">R</span>eview 
+ Class</span></a></p>
+<p><a href="reviewformclass.htm"><span class="rvts6">ReviewForm Class</span></a></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">SimpleText Class</a></span></p>
+<p><span class="rvts6"><a href="stageclass.htm">Stage Class</a></span></p>
+<p><a href="starballotclass.htm"><span class="rvts6">StarBallot Class</span></a></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">String Class</a></span></p>
+<p><a href="suggestionboxclass.htm"><span class="rvts6">S</span><span 
+	 class="rvts6">uggestionBox Class</span></a></p>
+<p><span class="rvts6"><a href="tenantclass.htm">Tenant Class</a></span></p>
+<p><span class="rvts6"><a href="rdfandowldatatypes.htm">Thing Class</a></span></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">Time Class</a></span></p>
+<p><a href="timeunit_class.htm">TimeUnit Class</a></p>
+<p><a href="timezoneclass.htm">TimeZone Class</a></p>
+<p><a href="updownballotclass.htm"><span class="rvts6">UpDownBallot Class</span></a></p>
+<p><span class="rvts6"><a href="xmlbaseddatatypes.htm">URI Class</a></span></p>
+<p><a href="userclass.htm"><span class="rvts6">User Class</span></a></p>
+<p><span class="rvts6"><a href="useraccountclass.htm">UserAccount Class</a></span></p>
+<p><a href="userauthorityclass.htm"><span class="rvts6">UserAuthority Class</span></a></p>
+<p><span class="rvts6"><a href="userscoreclass.htm">UserScore Class</a></span></p>
+<p><span class="rvts6"><a href="verbclass.htm">Verb Class</a></span></p>
+<p><span class="rvts6"><a href="voteclass.htm">Vote Class</a></span></p>
+<p>&#160;</p>
+<p>&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
  <p class="Head_Foot" style="margin-left: 6pt; 

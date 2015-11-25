@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(0);
+  autoSync(1);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -114,7 +114,13 @@ function onSetStartPage()
  <p class="Head_Foot" style="text-align: right; 
 											 margin-left: 6pt; font-size: 11pt; 
 											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;">API for Spigit</p>
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
+	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
+	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
+															 width="20" 
+															 height="16" /></a> 
+	 </p>
 </div>
 
 
@@ -324,7 +330,8 @@ function onSetStartPage()
 		 class="rvts29">prule</span></p></td>
 		<td><p class="Code_table" style="margin-top: 0pt; margin-bottom: 0pt;">=</p></td>
 		<td><p class="Code_table" style="margin-top: 0pt; margin-bottom: 0pt;"><span 
-		 class="rvts29">( pdef | ruleName | ruleDef</span>  
+		 class="rvts29">( pdef | ruleName | ruleDef</span> <span 
+		 class="rvts29">| derivationDef | conditional</span> 
 		 <span class="rvts29">)</span></p></td>
 	</tr>
 </table>
@@ -404,10 +411,55 @@ function onSetStartPage()
 		 &#160;)</span></p></td>
 	</tr>
 </table>
-
-
-
-
+<p>&#160;</p>
+<table style="margin-left: 40px;" cellspacing="0" 
+											 width="100%">
+	<col style="width: 16.721%;" />
+	<col style="width: 3.04%;" />
+	<col style="width: 80.239%;" />
+	<tr>
+		<td><p class="Code_table"><span class="rvts29">derivationDef</span></p></td>
+		<td><p class="Code_table">=</p></td>
+		<td><p class="Code_table"><span class="rvts29">propertyName &quot;=&quot; 
+		 derivation</span></p></td>
+	</tr>
+	<tr>
+		<td><p class="Code_table"><span class="rvts29">derivation</span></p></td>
+		<td><p class="Code_table">=</p></td>
+		<td><p class="Code_table"><span class="rvts29">( &quot;{&quot; 
+		 sparql &quot;}&quot; ) ? TBA</span></p></td>
+	</tr>
+</table>
+<p>&#160;</p>
+<table style="margin-left: 40px;" cellspacing="0" 
+											 width="100%">
+	<col style="width: 16.721%;" />
+	<col style="width: 3.04%;" />
+	<col style="width: 80.239%;" />
+	<tr>
+		<td><p class="Code_table"><span class="rvts29">conditional</span></p></td>
+		<td><p class="Code_table">=</p></td>
+		<td><p class="Code_table"><span class="rvts29">case propertyExpr 
+		 &quot;{&quot; case * ( &quot;,&quot; case ) &quot;}&quot;</span></p></td>
+	</tr>
+	<tr>
+		<td><p class="Code_table"><span class="rvts29">case</span></p></td>
+		<td><p class="Code_table">=</p></td>
+		<td><p class="Code_table"><span class="rvts29">literalExpr &quot;:&quot; 
+		 bracketedList</span></p></td>
+	</tr>
+	<tr>
+		<td><p class="Code_table"><span class="rvts29">literalExpr</span></p></td>
+		<td><p class="Code_table">=</p></td>
+		<td><p class="Code_table"><span class="rvts29">( stringLiteral 
+		 | numberLiteral | TBA )</span></p></td>
+	</tr>
+	<tr>
+		<td><p class="Code_table"><span class="rvts29">propertyExpr</span></p></td>
+		<td><p class="Code_table">=</p></td>
+		<td><p class="Code_table">&#160;</p></td>
+	</tr>
+</table>
 <p>&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	

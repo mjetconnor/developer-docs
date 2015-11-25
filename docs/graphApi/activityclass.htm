@@ -62,8 +62,8 @@ if (window.gbWhTopic)
 
 	if (window.addTocInfo)
 	{
-	addTocInfo("Reference\nDataypes and Classes\nInfrastructure Datatypes\nActivity Class");
-addAvenueInfo("Basic Sequence","infrastructuredatatypes.htm","activityeventclass.htm");
+	addTocInfo("Reference\nDataypes and Classes\nActivity Class");
+addAvenueInfo("Basic Sequence","valuesetclass.htm","activityeventclass.htm");
 addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	}
@@ -76,7 +76,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 	
 	document.write("<p style=\"text-align:left\"> ");
 AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
-document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; <a href=\"infrastructuredatatypes.htm\">Infrastructure Datatypes<\/a> &nbsp;&gt; Activity Class<\/p>");
+document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; Activity Class<\/p>");
 
 }
 else
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(0);
+  autoSync(1);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -114,7 +114,13 @@ function onSetStartPage()
  <p class="Head_Foot" style="text-align: right; 
 											 margin-left: 6pt; font-size: 11pt; 
 											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;">API for Spigit</p>
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
+	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
+	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
+															 width="20" 
+															 height="16" /></a> 
+	 </p>
 </div>
 
 

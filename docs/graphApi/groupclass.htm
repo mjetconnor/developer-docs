@@ -62,7 +62,7 @@ if (window.gbWhTopic)
 
 	if (window.addTocInfo)
 	{
-	addTocInfo("Reference\nDataypes and Classes\nAgent Datatypes\nGroup Class");
+	addTocInfo("Reference\nDataypes and Classes\nGroup Class");
 addAvenueInfo("Basic Sequence","genderclass.htm","organizationclass.htm");
 addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
@@ -76,7 +76,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 	
 	document.write("<p style=\"text-align:left\"> ");
 AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
-document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; <a href=\"agentdatatypes.htm\">Agent Datatypes<\/a> &nbsp;&gt; Group Class<\/p>");
+document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; Group Class<\/p>");
 
 }
 else
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(0);
+  autoSync(1);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -114,7 +114,13 @@ function onSetStartPage()
  <p class="Head_Foot" style="text-align: right; 
 											 margin-left: 6pt; font-size: 11pt; 
 											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;">API for Spigit</p>
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
+	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
+	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
+															 width="20" 
+															 height="16" /></a> 
+	 </p>
 </div>
 
 
@@ -203,11 +209,43 @@ function onSetStartPage()
 														 margin-bottom: 4.5pt;"><span 
 			 class="rvts6">The members of this group.</span></p></td>
 		</tr>
-		
-			
-			
-			
-		
+		<tr class="t2Row" style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="111"><p 
+				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
+			 class="rvts6">range</span></p></td>
+			<td style="border-right: solid 1px #000000; 
+													 border-bottom: solid 1px #000000; 
+													 padding-left: 6px; 
+													 padding-top: 6px; 
+													 padding-right: 6px; 
+													 padding-bottom: 6px;" 
+													 width="69"><p 
+				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="groupclass.htm">Group</a></p></td>
+			<td style="border-right: solid 1px #000000; 
+													 border-bottom: solid 1px #000000; 
+													 padding-left: 6px; 
+													 padding-top: 6px; 
+													 padding-right: 6px; 
+													 padding-bottom: 6px;" 
+													 width="51"><p 
+				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
+			<td style="border-right: solid 1px #000000; 
+													 border-bottom: solid 1px #000000; 
+													 padding-left: 6px; 
+													 padding-top: 6px; 
+													 padding-right: 6px; 
+													 padding-bottom: 6px;" 
+													 width="403"><p style="margin-left: 0in; 
+				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">If 
+			 this property is specified, it &#160;represents the set of 
+			 potential members to the group. &#160;An agent may add themselves 
+			 to the group if they are a member of the range group. &#160;The 
+			 range could be as broad as “everybody” (a very big Group) 
+			 or as limited as a set of &#160;hand-picked invitees (another 
+			 group).</span></p></td>
+		</tr>
 	</table>
 </div>
 <p><span class="rvts6"><br />

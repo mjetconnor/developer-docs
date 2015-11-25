@@ -62,7 +62,8 @@ if (window.gbWhTopic)
 
 	if (window.addTocInfo)
 	{
-	addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
+	addTocInfo("Reference\nDataypes and Classes\nContactAddress Class");
+addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	}
 	if (window.writeBtnStyle)
@@ -74,7 +75,7 @@ if (window.gbWhTopic)
 	
 	document.write("<p style=\"text-align:left\"> ");
 AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
-document.write("ContactAddress Class<\/p>");
+document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; ContactAddress Class<\/p>");
 
 }
 else
@@ -99,7 +100,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(0);
+  autoSync(1);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -112,7 +113,13 @@ function onSetStartPage()
  <p class="Head_Foot" style="text-align: right; 
 											 margin-left: 6pt; font-size: 11pt; 
 											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;">API for Spigit</p>
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
+	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
+	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
+															 width="20" 
+															 height="16" /></a> 
+	 </p>
 </div>
 
 

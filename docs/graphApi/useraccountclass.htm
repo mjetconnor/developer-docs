@@ -62,7 +62,7 @@ if (window.gbWhTopic)
 
 	if (window.addTocInfo)
 	{
-	addTocInfo("Reference\nDataypes and Classes\nAgent Datatypes\nUserAccount Class");
+	addTocInfo("Reference\nDataypes and Classes\nUserAccount Class");
 addAvenueInfo("Basic Sequence","userclass.htm","userscoreclass.htm");
 addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
@@ -76,7 +76,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 	
 	document.write("<p style=\"text-align:left\"> ");
 AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
-document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; <a href=\"agentdatatypes.htm\">Agent Datatypes<\/a> &nbsp;&gt; UserAccount Class<\/p>");
+document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; UserAccount Class<\/p>");
 
 }
 else
@@ -101,7 +101,7 @@ if (window.addEventListener){
 
 function onSetStartPage()
 {
-  autoSync(0);
+  autoSync(1);
   sendSyncInfo();
   sendAveInfoOut();
 }
@@ -114,7 +114,13 @@ function onSetStartPage()
  <p class="Head_Foot" style="text-align: right; 
 											 margin-left: 6pt; font-size: 11pt; 
 											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;">API for Spigit</p>
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
+	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
+	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
+															 width="20" 
+															 height="16" /></a> 
+	 </p>
 </div>
 
 
@@ -173,11 +179,39 @@ function onSetStartPage()
 			 class="rvts6">The user’s login name, often known as their 
 			 username.</span></p></td>
 		</tr>
-		
-			
-			
-			
-		
+		<tr class="t1Row" style="vertical-align: top;">
+			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
+				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
+				 padding-right: 6px; padding-bottom: 6px;" width="98"><p 
+				 style="margin-left: 0pt; margin-top: 0pt; margin-bottom: 4.5pt;"><span 
+			 class="rvts6">authority</span></p></td>
+			<td style="border-right: solid 1px #000000; 
+													 border-bottom: solid 1px #000000; 
+													 padding-left: 6px; 
+													 padding-top: 6px; 
+													 padding-right: 6px; 
+													 padding-bottom: 6px;" 
+													 width="95"><p style="margin-left: 0pt; 
+				 margin-top: 0pt; margin-bottom: 4.5pt;"><a class="rvts14" href="userauthorityclass.htm">UserAuthority</a></p></td>
+			<td style="border-right: solid 1px #000000; 
+													 border-bottom: solid 1px #000000; 
+													 padding-left: 6px; 
+													 padding-top: 6px; 
+													 padding-right: 6px; 
+													 padding-bottom: 6px;" 
+													 width="53"><p style="margin-left: 0pt; 
+				 margin-top: 0pt; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
+			<td style="border-right: solid 1px #000000; 
+													 border-bottom: solid 1px #000000; 
+													 padding-left: 6px; 
+													 padding-top: 6px; 
+													 padding-right: 6px; 
+													 padding-bottom: 6px;" 
+													 width="344"><p style="margin-left: 0pt; 
+				 margin-top: 0pt; margin-bottom: 4.5pt;"><span class="rvts6">The 
+			 identity service or authority that is the context for the 
+			 username.</span></p></td>
+		</tr>
 	</table>
 </div>
 <p><span class="rvts6"><br />
