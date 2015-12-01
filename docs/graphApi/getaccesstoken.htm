@@ -14,7 +14,6 @@
 #topic_header { background-color:#EFEFEF; }
 -->
 </style>
-<script type="text/javascript" src="../MJG1/js/chmRelative.js" language="JavaScript1.2"></script>
 <script type="text/javascript" language="JavaScript">
 //<![CDATA[
 function reDo() {
@@ -64,14 +63,13 @@ if (window.gbWhTopic)
 	{
 	addTocInfo("Tutorial\nGet an Access Token");
 addAvenueInfo("TOC","getarestappforyourbrowser.htm","getdataforanentity.htm");
-addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	}
 	if (window.writeBtnStyle)
 		writeBtnStyle();
 
 	if (window.writeIntopicBar)
-		writeIntopicBar(1);
+		writeIntopicBar(0);
 
 	
 	document.write("<p style=\"text-align:left\"> ");
@@ -111,6 +109,11 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;</span></p>
 </div>
 
 
@@ -138,7 +141,7 @@ function onSetStartPage()
  endpoint for your Spigit community. &#160;It has three query parameters:</span></p>
 <div class="rvps2">
 	<table class="Mindjet_invisible" style="border-width: 0px; left: 0px; 
-			 top: 0px;" width="742" cellspacing="0">
+			 top: 0px;" cellspacing="0" width="742">
 		<col width="113" />
 		<col width="361" />
 		<col width="238" />
@@ -190,12 +193,11 @@ function onSetStartPage()
 	</table>
 </div>
 <p><span class="rvts6">&gt;&gt; To make your own application ID (aka &quot;client_id&quot;), 
- see <a href="applications.htm">Spigit in the Graph :: Registered 
- Applications</a>.</span></p>
-<p><span class="rvts6">If you are not already logged into that Spigit 
- instance, you will be redirected to the login page appropriate for that 
- community. &#160;The normal Spigit login sequence will apply in 
- accordance with how that community is set up.</span></p>
+ see <a href="applications.htm">Spigit in the Graph :: Registered Applications</a>.</span></p>
+<p><span class="rvts6">If you are not already logged into that Spigit instance, 
+ you will be redirected to the login page appropriate for that community. 
+ &#160;The normal Spigit login sequence will apply in accordance with how 
+ that community is set up.</span></p>
 <p><span class="rvts6">Then, if you have never authenticated using this 
  app before, which will surely be the case the first time you try this, 
  you will be redirected to a page that asks if it is OK for this app, namely 
@@ -206,8 +208,8 @@ function onSetStartPage()
  is appended as the hash tag part of that URI (</span><a href="oauthauthorize.htm">reference 
  details here</a><span class="rvts6">). &#160;</span></p>
 <p><span class="rvts6" style="font-weight: bold;">&quot;/html/api/testOauthRedirectPage.html&quot;</span><span 
-	 class="rvts6"> is a page that we include in your Spigit instance 
- just to make it easy for you to manually try out OAuth 2 requests. &#160;This 
+	 class="rvts6"> is a page that we include in your Spigit instance just 
+ to make it easy for you to manually try out OAuth 2 requests. &#160;This 
  page simply grabs the values that come to it in the hashtag part of the 
  request and displays them in a way that is easy for you to see. &#160;Your 
  app will do something else. &#160;This information is just for your app. 
@@ -250,6 +252,15 @@ function onSetStartPage()
  REST queries as the value of the &quot;Authorization&quot; HTTP header.</span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

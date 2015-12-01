@@ -2041,8 +2041,7 @@ if(window.gbWhUtil && window.gbWhVer && (gbAIRSSL ||(window.gbWhMsg&&window.gbWh
 				whtopic_foldUnload=window.onunload;
 	}
 	window.onunload=unRegisterListener;
-	setButtonFont("show","","10pt","","","","");
-
+	
 	if(!gbAIRSSL)
 	    GetSyncEnabled();
 	gbWhTopic=true;

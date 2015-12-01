@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"Acceptance Class\" to=\"FormField Class\" num=\"68\"/><ck fm=\"FormFieldOption\" to=\"RDF and OWL Datatypes\" num=\"76\"/><ck fm=\"RDF (Semantic Web) Concepts\" to=\"XML-Based Datatypes\" num=\"49\"/></cki>";

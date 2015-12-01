@@ -14,7 +14,6 @@
 #topic_header { background-color:#EFEFEF; }
 -->
 </style>
-<script type="text/javascript" src="../MJG1/js/chmRelative.js" language="JavaScript1.2"></script>
 <script type="text/javascript" language="JavaScript">
 //<![CDATA[
 function reDo() {
@@ -64,14 +63,13 @@ if (window.gbWhTopic)
 	{
 	addTocInfo("Tutorial\nGet Data for an Entity");
 addAvenueInfo("TOC","getaccesstoken.htm","walkthegraph.htm");
-addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	}
 	if (window.writeBtnStyle)
 		writeBtnStyle();
 
 	if (window.writeIntopicBar)
-		writeIntopicBar(1);
+		writeIntopicBar(0);
 
 	
 	document.write("<p style=\"text-align:left\"> ");
@@ -111,6 +109,11 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
+ <p class="Head_Foot" style="text-align: right; 
+											 margin-left: 6pt; font-size: 11pt; 
+											 font-weight: bold; background-color: #f4f4f4; 
+											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
+	 API &#160;&#160;</span></p>
 </div>
 
 
@@ -121,7 +124,7 @@ function onSetStartPage()
  &quot; (the word &quot;Bearer&quot; followed by a single blank space character) 
  followed by your access token. &#160;For example:</span></p>
 <table class="Mindjet_invisible" style="left: 0px; top: 134px; height: 24px; 
-		 margin-left: 24px; margin-right: 19px;" width="693" cellspacing="0">
+		 margin-left: 24px; margin-right: 19px;" cellspacing="0" width="693">
 	<col style="width: 18.064%;" />
 	<col style="width: 81.936%;" />
 	<tr>
@@ -132,8 +135,8 @@ function onSetStartPage()
 <p><span class="rvts6">The authentication response from the</span> <a class="rvts14" 
 	 href="getaccesstoken.htm" style="font-family: 'Arial Unicode MS', sans-serif; 
 	 font-size: 9pt;">previous tutorial step</a> <span class="rvts6">gave 
- us two starting points for the exploration of your SpigitGraph data. 
- &#160;The</span> <span class="rvts13" style="font-style: italic; font-weight: bold;"><i>userId</i></span> 
+ us two starting points for the exploration of your SpigitGraph data. &#160;The</span> 
+ <span class="rvts13" style="font-style: italic; font-weight: bold;"><i>userId</i></span> 
  <span class="rvts6">value is the &quot;entity ID&quot; of the user that 
  was just authenticated. &#160;The</span> <span class="rvts13" style="font-style: italic; 
 												 font-weight: bold;"><i>communityId</i></span> 
@@ -142,9 +145,9 @@ function onSetStartPage()
 <p><span class="rvts6">The value for communityId from the previous step 
  was </span><span class="rvts6" style="color: #008080;"><font color="teal" >&quot;https://www.example.mindjet.com/api/ds1/comm-1&quot;</font></span><span 
 	 class="rvts6">.</span></p>
-<p><span class="rvts6">To get the data for an entity, any SpigitGraph 
- entity, simply execute an HTTP GET request using the entity's ID as the 
- URL of the query.</span></p>
+<p><span class="rvts6">To get the data for an entity, any SpigitGraph entity, 
+ simply execute an HTTP GET request using the entity's ID as the URL of 
+ the query.</span></p>
 <p class="Code" style="margin-left: 48px; color: #003f00;"><span class="rvts25">GET</span> 
  <span class="rvts24">https://www.example.mindjet.com/api/ds1/comm-1</span></p>
 <p><span class="rvts6">Don't forget the &quot;Authorization&quot; HTTP 
@@ -321,6 +324,15 @@ function onSetStartPage()
 <p class="rvps12">&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
+ <p class="Head_Foot" style="margin-left: 6pt; 
+											 font-size: 11pt; background-color: #f4f4f4;"><a 
+	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
+	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
+	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
+	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
+	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
+	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--
