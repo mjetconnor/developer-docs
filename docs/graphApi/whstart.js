@@ -32,7 +32,7 @@ function delayReload()
 }
 
 var gsToolbarOrder = "custom12417|toc|fts|blankblock";
-var gsMinibarOrder = "avprev|avnext|rolesel|blankblock|hide2|";
+var gsMinibarOrder = "avprev|avnext|blankblock|hide2|";
 
 var gsTopic = "welcometospigitgraphdevelopersg.htm";
 var PANE_OPT_SEARCH = 1;

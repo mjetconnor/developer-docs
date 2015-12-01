@@ -63,7 +63,7 @@ if (window.gbWhTopic)
 	if (window.addTocInfo)
 	{
 	addTocInfo("Reference\nREST API\nBNF");
-addAvenueInfo("Basic Sequence","postqueries.htm","spigitengage_api_terms.htm");
+addAvenueInfo("TOC","postqueries.htm","request_parameter_formats.htm");
 addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	}
@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
+AddMasterBreadcrumbs("index.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"rest_api.htm\">REST API<\/a> &nbsp;&gt; BNF<\/p>");
 
 }
@@ -87,7 +87,7 @@ onLoadHandler = function()
 {
   if (window.setRelStartPage)
 	{
-	setTimeout("setRelStartPage('content.htm');", 1)
+	setTimeout("setRelStartPage('index.htm');", 1)
 
     setTimeout("UpdateBreadCrumbsMarker();", 1);
 	}
@@ -111,16 +111,6 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
- <p class="Head_Foot" style="text-align: right; 
-											 margin-left: 6pt; font-size: 11pt; 
-											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
-	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
-	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
-	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
-															 width="20" 
-															 height="16" /></a> 
-	 </p>
 </div>
 
 
@@ -330,8 +320,7 @@ function onSetStartPage()
 		 class="rvts29">prule</span></p></td>
 		<td><p class="Code_table" style="margin-top: 0pt; margin-bottom: 0pt;">=</p></td>
 		<td><p class="Code_table" style="margin-top: 0pt; margin-bottom: 0pt;"><span 
-		 class="rvts29">( pdef | ruleName | ruleDef</span> <span 
-		 class="rvts29">| derivationDef | conditional</span> 
+		 class="rvts29">( pdef | ruleName | ruleDef</span>  
 		 <span class="rvts29">)</span></p></td>
 	</tr>
 </table>
@@ -411,67 +400,13 @@ function onSetStartPage()
 		 &#160;)</span></p></td>
 	</tr>
 </table>
-<p>&#160;</p>
-<table style="margin-left: 40px;" cellspacing="0" 
-											 width="100%">
-	<col style="width: 16.721%;" />
-	<col style="width: 3.04%;" />
-	<col style="width: 80.239%;" />
-	<tr>
-		<td><p class="Code_table"><span class="rvts29">derivationDef</span></p></td>
-		<td><p class="Code_table">=</p></td>
-		<td><p class="Code_table"><span class="rvts29">propertyName &quot;=&quot; 
-		 derivation</span></p></td>
-	</tr>
-	<tr>
-		<td><p class="Code_table"><span class="rvts29">derivation</span></p></td>
-		<td><p class="Code_table">=</p></td>
-		<td><p class="Code_table"><span class="rvts29">( &quot;{&quot; 
-		 sparql &quot;}&quot; ) ? TBA</span></p></td>
-	</tr>
-</table>
-<p>&#160;</p>
-<table style="margin-left: 40px;" cellspacing="0" 
-											 width="100%">
-	<col style="width: 16.721%;" />
-	<col style="width: 3.04%;" />
-	<col style="width: 80.239%;" />
-	<tr>
-		<td><p class="Code_table"><span class="rvts29">conditional</span></p></td>
-		<td><p class="Code_table">=</p></td>
-		<td><p class="Code_table"><span class="rvts29">case propertyExpr 
-		 &quot;{&quot; case * ( &quot;,&quot; case ) &quot;}&quot;</span></p></td>
-	</tr>
-	<tr>
-		<td><p class="Code_table"><span class="rvts29">case</span></p></td>
-		<td><p class="Code_table">=</p></td>
-		<td><p class="Code_table"><span class="rvts29">literalExpr &quot;:&quot; 
-		 bracketedList</span></p></td>
-	</tr>
-	<tr>
-		<td><p class="Code_table"><span class="rvts29">literalExpr</span></p></td>
-		<td><p class="Code_table">=</p></td>
-		<td><p class="Code_table"><span class="rvts29">( stringLiteral 
-		 | numberLiteral | TBA )</span></p></td>
-	</tr>
-	<tr>
-		<td><p class="Code_table"><span class="rvts29">propertyExpr</span></p></td>
-		<td><p class="Code_table">=</p></td>
-		<td><p class="Code_table">&#160;</p></td>
-	</tr>
-</table>
+
+
+
+
 <p>&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
- <p class="Head_Foot" style="margin-left: 6pt; 
-											 font-size: 11pt; background-color: #f4f4f4;"><a 
-	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
-	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
-	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
-	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
-	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
-	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
-	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

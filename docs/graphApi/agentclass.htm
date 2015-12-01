@@ -63,7 +63,7 @@ if (window.gbWhTopic)
 	if (window.addTocInfo)
 	{
 	addTocInfo("Reference\nDataypes and Classes\nAgent Class");
-addAvenueInfo("Basic Sequence","verbclass.htm","applicationclass.htm");
+addAvenueInfo("TOC","activityeventclass.htm","applicationclass.htm");
 addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	}
@@ -75,7 +75,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
+AddMasterBreadcrumbs("index.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; Agent Class<\/p>");
 
 }
@@ -87,7 +87,7 @@ onLoadHandler = function()
 {
   if (window.setRelStartPage)
 	{
-	setTimeout("setRelStartPage('content.htm');", 1)
+	setTimeout("setRelStartPage('index.htm');", 1)
 
     setTimeout("UpdateBreadCrumbsMarker();", 1);
 	}
@@ -111,16 +111,6 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
- <p class="Head_Foot" style="text-align: right; 
-											 margin-left: 6pt; font-size: 11pt; 
-											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
-	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
-	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
-	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
-															 width="20" 
-															 height="16" /></a> 
-	 </p>
 </div>
 
 
@@ -242,73 +232,16 @@ function onSetStartPage()
 														 margin-top: 0px; 
 														 margin-bottom: 4.5pt;">&#160;</p></td>
 		</tr>
-		<tr class="t1Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">abstract</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">String</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6"><br />
-			 </span></p></td>
-		</tr>
-		<tr class="t2Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">contactPoint</span></p>
-			<p class="plurals" style="margin-top: 0px; margin-bottom: 4.5pt; 
-				 margin-left: 12px;"><a class="rvts51" href="collectionsandpluralpropertyname.htm" style="font-style: italic;">contactPoints</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">ContactPoint</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">[ 
-			 * ]</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">Contact 
-			 information for this agent.</span></p></td>
-		</tr>
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
 		<tr class="t1Row" style="vertical-align: top;">
 			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
 				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
@@ -333,183 +266,31 @@ function onSetStartPage()
 			 class="rvts6">This agent’s primary email address. &#160;&#160;&#160;This 
 			 value may also be an entry in this agent’s contactPoints.</span></p></td>
 		</tr>
-		<tr class="t2Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">phone</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">PhoneNumber</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">This 
-			 agent’s primary phone number. &#160;&#160;&#160;This value 
-			 may also be an entry in this agent’s contactPoints.</span></p></td>
-		</tr>
-		<tr class="t1Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">postal</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">PostalAddress</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">This 
-			 agent’s primary mailing address. &#160;&#160;&#160;This value 
-			 may also be an entry in this agent’s contactPoints.</span></p></td>
-		</tr>
-		<tr class="t2Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-top: 0px; margin-bottom: 4.5pt; margin-left: 12px;"><span 
-			 class="rvts6">url</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">URI</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">MAY</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">This 
-			 agent’s primary web link. &#160;&#160;&#160;This value may 
-			 also be an entry in this agent’s contactPoints.</span></p></td>
-		</tr>
-		<tr class="t1Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">contact</span></p>
-			<p class="plurals" style="margin-top: 0px; margin-bottom: 4.5pt; 
-				 margin-left: 12px;"><a class="rvts51" href="collectionsandpluralpropertyname.htm" style="font-style: italic;">contacts</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">Agent</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">[ 
-			 * ]</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">This 
-			 agent's contact list.</span></p></td>
-		</tr>
-		<tr class="t2Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">commutable</span></p>
-			<p style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6"><br />
-			 </span></p>
-			<p class="plurals" style="margin-top: 0px; margin-bottom: 4.5pt; 
-				 margin-left: 12px;"><a class="rvts51" href="collectionsandpluralpropertyname.htm" style="font-style: italic;">commutables</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">Agent</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">[ 
-			 * ]</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">An 
-			 agent has a “commutable” relationship with another agent when 
-			 those two objects refer to the same physical person. &#160;More 
-			 specifically, if an agent identity &#160;has been authenticated, 
-			 by whatever means, then all commutable agents may be considered 
-			 to be authenticated as well. &#160;One way to look at commutable 
-			 agents is as different profiles for a person or entity.</span></p></td>
-		</tr>
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
 		<tr class="t1Row" style="vertical-align: top;">
 			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
 				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
@@ -538,204 +319,37 @@ function onSetStartPage()
 			 <span class="rvts6">property value is this agent. &#160;In 
 			 other words, all of my scores.</span></p></td>
 		</tr>
-		<tr class="t2Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">creation</span></p>
-			<p class="plurals" style="margin-top: 0px; margin-bottom: 4.5pt; 
-				 margin-left: 12px;"><a class="rvts51" href="collectionsandpluralpropertyname.htm" style="font-style: italic;">creations</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">Entity</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">RULE</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">The 
-			 collection of all entities whose</span> <span class="rvts13">creator</span> 
-			 <span class="rvts6">property value is this agent. &#160;In 
-			 other words, all of my things.</span></p></td>
-		</tr>
-		<tr class="t1Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">idea</span></p>
-			<p class="plurals" style="margin-top: 0px; margin-bottom: 4.5pt; 
-				 margin-left: 12px;"><a class="rvts51" href="collectionsandpluralpropertyname.htm" style="font-style: italic;">ideas</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">Idea</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">RULE</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">The 
-			 collection of all</span> <a class="rvts14" href="ideaclass.htm">Idea</a> 
-			 <span class="rvts6">entities whose</span> <span class="rvts13">creator</span> 
-			 <span class="rvts6">property value is this agent. &#160;In 
-			 other words, all of my ideas.</span></p></td>
-		</tr>
-		<tr class="t2Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">comment</span></p>
-			<p class="plurals" style="margin-top: 0px; margin-bottom: 4.5pt; 
-				 margin-left: 12px;"><a class="rvts51" href="collectionsandpluralpropertyname.htm" style="font-style: italic;">comments</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">Comment</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">RULE</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">The 
-			 collection of all</span> <a class="rvts14" href="commentclass.htm">Comment</a> 
-			 <span class="rvts6">entities whose</span> <span class="rvts13">creator</span> 
-			 <span class="rvts6">property value is this agent. &#160;In 
-			 other words, all of my comments.</span></p></td>
-		</tr>
-		<tr class="t1Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">collaboration</span></p>
-			<p class="plurals" style="margin-top: 0px; margin-bottom: 4.5pt; 
-				 margin-left: 12px;"><a class="rvts51" href="collectionsandpluralpropertyname.htm" style="font-style: italic;">collaborations</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">Collaboration</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">RULE</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">The 
-			 collection of all</span> <a class="rvts14" href="collaborationclass.htm">Collaborations</a> 
-			 <span class="rvts6">for which this agent is a participant.</span></p></td>
-		</tr>
-		<tr class="t2Row" style="vertical-align: top;">
-			<td style="border-left: Solid 1px #000000; border-right: solid 1px #000000; 
-				 border-bottom: solid 1px #000000; padding-left: 6px; padding-top: 6px; 
-				 padding-right: 6px; padding-bottom: 6px;" width="103"><p 
-				 style="margin-left: 0in; margin-top: 0px; margin-bottom: 4.5pt;"><span 
-			 class="rvts6">memberOf</span></p>
-			<p class="plurals" style="margin-top: 0px; margin-bottom: 4.5pt; 
-				 margin-left: 12px;"><a class="rvts51" href="collectionsandpluralpropertyname.htm" style="font-style: italic;">memberOfs</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="103"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">Group</span></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="71"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><a class="rvts14" href="requirementlevelsandmultiplicity.htm">RULE</a></p></td>
-			<td style="border-right: solid 1px #000000; 
-													 border-bottom: solid 1px #000000; 
-													 padding-left: 6px; 
-													 padding-top: 6px; 
-													 padding-right: 6px; 
-													 padding-bottom: 6px;" 
-													 width="313"><p style="margin-left: 0in; 
-				 margin-top: 0px; margin-bottom: 4.5pt;"><span class="rvts6">The 
-			 collection of all</span> <a class="rvts14" href="groupclass.htm">Groups</a> 
-			 <span class="rvts6">that this agent is a member of. &#160;This 
-			 is essentially the inverse of the</span> <span class="rvts13">member</span> 
-			 <span class="rvts6">property for</span> <a class="rvts14" href="groupclass.htm">Group</a><span 
-			 class="rvts6">.</span></p></td>
-		</tr>
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
 	</table>
 </div>
 <p><span class="rvts6"><br />
 </span></p>
 <div style="width: 100%; position: relative;" id="footer">
 	
- <p class="Head_Foot" style="margin-left: 6pt; 
-											 font-size: 11pt; background-color: #f4f4f4;"><a 
-	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
-	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
-	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
-	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
-	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
-	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
-	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--

@@ -55,7 +55,7 @@ if (window.gbWhTopic)
 	if (window.addTocInfo)
 	{
 	addTocInfo("Reference\nDataypes and Classes\nClasses By Category");
-addAvenueInfo("Basic Sequence","datatypesandclasses.htm","propertiesindex.htm");
+addAvenueInfo("TOC","datatypesandclasses.htm","propertiesindex.htm");
 addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	}
@@ -67,7 +67,7 @@ addButton("show",BTN_TEXT,"< Show Help Contents","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:left\"> ");
-AddMasterBreadcrumbs("content.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
+AddMasterBreadcrumbs("index.htm", "", "&nbsp;&gt;", "Home", "welcometospigitgraphdevelopersg.htm");
 document.write("<a href=\"reference.htm\">Reference<\/a> &nbsp;&gt; <a href=\"datatypesandclasses.htm\">Dataypes and Classes<\/a> &nbsp;&gt; Classes By Category<\/p>");
 
 }
@@ -79,7 +79,7 @@ onLoadHandler = function()
 {
   if (window.setRelStartPage)
 	{
-	setTimeout("setRelStartPage('content.htm');", 1)
+	setTimeout("setRelStartPage('index.htm');", 1)
 
     setTimeout("UpdateBreadCrumbsMarker();", 1);
 	}
@@ -103,16 +103,6 @@ function onSetStartPage()
 
 <div style="width: 100%; position: relative;" id="header">
 	
- <p class="Head_Foot" style="text-align: right; 
-											 margin-left: 6pt; font-size: 11pt; 
-											 font-weight: bold; background-color: #f4f4f4; 
-											 color: #0099cc;"><span style="vertical-align: top;">SpigitGraph 
-	 API &#160;&#160;<a href="javascript:history.go(-1)" title="Go Back"><img 
-	 alt="" src="blue_left.png" width="20" height="16" /></a></span> <a 
-	 href="javascript:history.go(1)" title="Go Forward"><img alt="" src="blue_right.png" 
-															 width="20" 
-															 height="16" /></a> 
-	 </p>
 </div>
 
 
@@ -184,13 +174,13 @@ function onSetStartPage()
  Purpose Datatypes</p>
 <p><a class="rvts14" href="conceptclass.htm">Concept</a></p>
 <p><a class="rvts14" href="conceptschemeclass.htm">ConceptScheme</a></p>
-<p><a class="rvts14" href="contactaddressclass.htm">ContactAddress</a></p>
-<p><a class="rvts14" href="contactpersonaclass.htm">ContactPersona</a></p>
-<p><a class="rvts14" href="contactpointclass.htm">ContactPoint</a></p>
-<p><a class="rvts14" href="contactroleclass.htm">ContactRole</a></p>
-<p><a class="rvts14" href="contacttypeclass.htm">ContactType</a></p>
+
+
+
+
+
 <p><a class="rvts14" href="countryclass.htm">Country</a></p>
-<p><a class="rvts14" href="currencyclass.htm">Currency</a></p>
+
 <p><a class="rvts14" href="emailaddressclass.htm">EmailAddress</a></p>
 <p><a class="rvts14" href="facetclass.htm">Facet</a></p>
 <p><a class="rvts14" href="formclass.htm">Form</a></p>
@@ -199,10 +189,10 @@ function onSetStartPage()
 <p><a href="formfieldoption.htm">FormFieldOption</a></p>
 <p><a class="rvts14" href="imageclass.htm">Image</a></p>
 <p><a class="rvts14" href="languageclass.htm"><span>L</span>anguage</a></p>
-<p><a href="mediabundleclass.htm">MediaBundle</a></p>
+
 <p><a class="rvts14" href="mediaresourceclass.htm">MediaResource</a></p>
 <p><a class="rvts14" href="mediatypeclass.htm">MediaType</a></p>
-<p><a class="rvts14" href="moneyclass.htm">Money</a></p>
+
 
 <p><a class="rvts14" href="phaseclass.htm"><span>P</span>hase</a></p>
 <p><a class="rvts14" href="phonenumberclass.htm">PhoneNumber</a></p>
@@ -220,8 +210,8 @@ function onSetStartPage()
  Datatypes</p>
 <p>Activity</p>
 <p><a class="rvts14" href="activityeventclass.htm">ActivityEvent</a></p>
-<p><a class="rvts14" href="activitylayoutclass.htm">ActivityLayout</a></p>
-<p><a class="rvts14" href="activitypatternclass.htm">ActivityPattern</a></p>
+<p></p>
+
 <p><a class="rvts14" href="activitystreamclass.htm">ActivityStream</a></p>
 <p><a class="rvts14" href="communityclass.htm">Community</a></p>
 <p><a class="rvts14" href="xmlbaseddatatypes.htm">DataSpace</a></p>
@@ -241,7 +231,7 @@ function onSetStartPage()
 <p><a class="rvts14" href="personclass.htm">Person</a></p>
 <p><a class="rvts14" href="userclass.htm">User</a></p>
 <p><a class="rvts14" href="useraccountclass.htm">UserAccount</a></p>
-<p><a class="rvts14" href="userauthorityclass.htm">UserAuthority</a></p>
+
 <p><a class="rvts14" href="userscoreclass.htm">UserScore</a></p>
 <p>&#160;</p>
 <p style="font-weight: bold; text-decoration: underline; "><a name="Idea_Datatypes"></a>Idea 
@@ -260,12 +250,10 @@ function onSetStartPage()
 <p>&#160;</p>
 <p style="font-weight: bold; text-decoration: underline; "><a name="Collaboration_Datatypes"></a>Collaboration 
  Datatypes</p>
-<p><a 
-	 class="rvts14" href="acceptanceclass.htm"><span><span><span><span><span>A</span></span></span></span>cceptance</span></a></p>
+
 <p><a class="rvts14" href="assignmentclass.htm">Assignment</a></p>
 <p><a class="rvts14" href="bidclass.htm">Bid</a></p>
-<p><span 
-	 class="rvts14">Brainstorm</span></p>
+
 <p><a class="rvts14" href="challengeclass.htm">Challenge</a></p>
 <p><a class="rvts14" href="collaborationclass.htm">Collaboration</a></p>
 <p><a class="rvts14" href="commentclass.htm">Comment</a></p>
@@ -293,15 +281,6 @@ function onSetStartPage()
 <p>&#160;</p>
 <div style="width: 100%; position: relative;" id="footer">
 	
- <p class="Head_Foot" style="margin-left: 6pt; 
-											 font-size: 11pt; background-color: #f4f4f4;"><a 
-	 href="https://support.spigit.com/" target="_blank" style="font-style: normal; 
-	 font-weight: normal; font-size: 11pt; background-color: #f4f4f4;"><span 
-	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">Spigit C</font></span><span 
-	 style="font-size: 11pt; background-color: #f4f4f4;"><font size="3" style="font-size:11pt;">ustomer Support</font></span></a> 
-	 &#160;&#160;&#160;&#160;<span style="color: #808080;"><font color="gray" >|</font></span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;<a 
-	 href="http://www.spigit.com/" target="_blank" style="font-size: 11pt; 
-	 background-color: #f4f4f4;">spigit.com</a> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
 </div>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--
